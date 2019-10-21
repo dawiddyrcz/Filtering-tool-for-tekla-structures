@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{04565B2D-AC76-4A77-88EF-5519B7E686F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FilteringTool</RootNamespace>
+    <AssemblyName>FilteringTool</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>false</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>FilteringTool.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tekla.Application.Library, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\00_References\References_2018\Tekla.Application.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="Tekla.Structures, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\00_References\References_2018\Tekla.Structures.dll</HintPath>
+    </Reference>
+    <Reference Include="Tekla.Structures.Catalogs, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\00_References\References_2018\Tekla.Structures.Catalogs.dll</HintPath>
+    </Reference>
+    <Reference Include="Tekla.Structures.Dialog, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\00_References\References_2018\Tekla.Structures.Dialog.dll</HintPath>
+    </Reference>
+    <Reference Include="Tekla.Structures.Drawing, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\00_References\References_2018\Tekla.Structures.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Tekla.Structures.Model, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\00_References\References_2018\Tekla.Structures.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Tekla.Structures.Plugins, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\00_References\References_2018\Tekla.Structures.Plugins.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CheckedPhasesAttributes.cs" />
+    <Compile Include="CurrentFilter.cs" />
+    <Compile Include="Drawing.cs" />
+    <Compile Include="Exceptions\FilteringToolException.cs" />
+    <Compile Include="Exceptions\FilteringToolTeklaSettingsException.cs" />
+    <Compile Include="Exceptions\IOExceptionsHandler.cs" />
+    <Compile Include="ExportImport\ExportFileFormat.cs" />
+    <Compile Include="ExportImport\PhaseExporter.cs" />
+    <Compile Include="ExportImport\PhaseImporter.cs" />
+    <Compile Include="ExportImport\SerializablePhase.cs" />
+    <Compile Include="ExportImport\SerializablePhaseCollection.cs" />
+    <Compile Include="FilteringToolClass.cs" />
+    <Compile Include="PhaseObjectSelector.cs" />
+    <Compile Include="TeklaMacroDirectory.cs" />
+    <Compile Include="TeklaObjects\ModelObjectRepotProperty.cs" />
+    <Compile Include="TeklaObjects\SettingsParser.cs" />
+    <Compile Include="TeklaObjects\TeklaObject.cs" />
+    <Compile Include="UI\FilteringToolMainForm_Methods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\DisplaySettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\DisplaySettings.Designer.cs">
+      <DependentUpon>DisplaySettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\ObjectInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\ObjectInfo.Designer.cs">
+      <DependentUpon>ObjectInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\NearestPlane.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\NearestPlane.Designer.cs">
+      <DependentUpon>NearestPlane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\TaskbarShortcut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\TaskbarShortcut.Designer.cs">
+      <DependentUpon>TaskbarShortcut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\WeldMinusOne.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\WeldMinusOne.Designer.cs">
+      <DependentUpon>WeldMinusOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ReleaseNoteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ReleaseNoteForm.Designer.cs">
+      <DependentUpon>ReleaseNoteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LicenseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LicenseForm.Designer.cs">
+      <DependentUpon>LicenseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LinkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LinkForm.Designer.cs">
+      <DependentUpon>LinkForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RenamePhaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RenamePhaseForm.Designer.cs">
+      <DependentUpon>RenamePhaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FilteringToolMainForm_TSEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTSettings\FilterType.cs" />
+    <Compile Include="ModelViews.cs" />
+    <Compile Include="SelectionFilter.cs" />
+    <Compile Include="FTSettings\Settings.cs" />
+    <Compile Include="TeklaPhase.cs" />
+    <Compile Include="UI\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AddPhaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AddPhaseForm.Designer.cs">
+      <DependentUpon>AddPhaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CheckboxesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\CheckboxesControl.Designer.cs">
+      <DependentUpon>CheckboxesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\AddNewPhase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\AddNewPhase.Designer.cs">
+      <DependentUpon>AddNewPhase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\SmallWindowMode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\SmallWindowMode.Designer.cs">
+      <DependentUpon>SmallWindowMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\HideShowWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\HideShowWindow.Designer.cs">
+      <DependentUpon>HideShowWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\RefreshPhases.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\RefreshPhases.Designer.cs">
+      <DependentUpon>RefreshPhases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\ExportPhases.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\ExportPhases.Designer.cs">
+      <DependentUpon>ExportPhases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\ImportPhases.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\ImportPhases.Designer.cs">
+      <DependentUpon>ImportPhases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\SelectionFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\SelectionFilter.Designer.cs">
+      <DependentUpon>SelectionFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\SelectAllUnselectAll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\SelectAllUnselectAll.Designer.cs">
+      <DependentUpon>SelectAllUnselectAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\SaveLoadAttributes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\SaveLoadAttributes.Designer.cs">
+      <DependentUpon>SaveLoadAttributes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\MultiSelect.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\MultiSelect.Designer.cs">
+      <DependentUpon>MultiSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\SetCurrentPhase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\SetCurrentPhase.Designer.cs">
+      <DependentUpon>SetCurrentPhase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\MoveObjectsToPhase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\MoveObjectsToPhase.Designer.cs">
+      <DependentUpon>MoveObjectsToPhase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\ViewFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\ViewFilter.Designer.cs">
+      <DependentUpon>ViewFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HelpControls\HelpFactory.cs" />
+    <Compile Include="UI\HelpControls\Overview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\HelpControls\Overview.Designer.cs">
+      <DependentUpon>Overview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FilteringToolMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FilteringToolMainForm.Designer.cs">
+      <DependentUpon>FilteringToolMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\ExportPhasesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ExportPhasesForm.Designer.cs">
+      <DependentUpon>ExportPhasesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ImportPhasesConflictForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ImportPhasesConflictForm.Designer.cs">
+      <DependentUpon>ImportPhasesConflictForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainMenuControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\MainMenuControl.Designer.cs">
+      <DependentUpon>MainMenuControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SelectCheckedListBoxControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\SelectCheckedListBoxControl.Designer.cs">
+      <DependentUpon>SelectCheckedListBoxControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\VersionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\VersionForm.Designer.cs">
+      <DependentUpon>VersionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ViewCheckedListBoxControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\ViewCheckedListBoxControl.Designer.cs">
+      <DependentUpon>ViewCheckedListBoxControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDisplay.cs" />
+    <Compile Include="ViewFilter.cs" />
+    <EmbeddedResource Include="UI\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\DisplaySettings.resx">
+      <DependentUpon>DisplaySettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\ObjectInfo.resx">
+      <DependentUpon>ObjectInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\NearestPlane.resx">
+      <DependentUpon>NearestPlane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\TaskbarShortcut.resx">
+      <DependentUpon>TaskbarShortcut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\WeldMinusOne.resx">
+      <DependentUpon>WeldMinusOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ReleaseNoteForm.resx">
+      <DependentUpon>ReleaseNoteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LicenseForm.resx">
+      <DependentUpon>LicenseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LinkForm.resx">
+      <DependentUpon>LinkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RenamePhaseForm.resx">
+      <DependentUpon>RenamePhaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AddPhaseForm.resx">
+      <DependentUpon>AddPhaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CheckboxesControl.resx">
+      <DependentUpon>CheckboxesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\AddNewPhase.resx">
+      <DependentUpon>AddNewPhase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\SmallWindowMode.resx">
+      <DependentUpon>SmallWindowMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\HideShowWindow.resx">
+      <DependentUpon>HideShowWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\RefreshPhases.resx">
+      <DependentUpon>RefreshPhases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\ExportPhases.resx">
+      <DependentUpon>ExportPhases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\ImportPhases.resx">
+      <DependentUpon>ImportPhases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\SelectionFilter.resx">
+      <DependentUpon>SelectionFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\SelectAllUnselectAll.resx">
+      <DependentUpon>SelectAllUnselectAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\SaveLoadAttributes.resx">
+      <DependentUpon>SaveLoadAttributes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\MultiSelect.resx">
+      <DependentUpon>MultiSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\SetCurrentPhase.resx">
+      <DependentUpon>SetCurrentPhase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\MoveObjectsToPhase.resx">
+      <DependentUpon>MoveObjectsToPhase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\ViewFilter.resx">
+      <DependentUpon>ViewFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HelpControls\Overview.resx">
+      <DependentUpon>Overview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FilteringToolMainForm.resx">
+      <DependentUpon>FilteringToolMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI\ExportPhasesForm.resx">
+      <DependentUpon>ExportPhasesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ImportPhasesConflictForm.resx">
+      <DependentUpon>ImportPhasesConflictForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainMenuControl.resx">
+      <DependentUpon>MainMenuControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SelectCheckedListBoxControl.resx">
+      <DependentUpon>SelectCheckedListBoxControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\VersionForm.resx">
+      <DependentUpon>VersionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ViewCheckedListBoxControl.resx">
+      <DependentUpon>ViewCheckedListBoxControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="License.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FilteringTool.ico" />
+    <Content Include="License.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Readme.txt" />
+    <Content Include="ReleaseNote.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UI\HelpControls\res\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if not exist "$(SolutionDir)Output\" mkdir "$(SolutionDir)Output\"
+if not exist "$(SolutionDir)Output\FilteringTool\" mkdir "$(SolutionDir)Output\FilteringTool\"
+copy  "$(ProjectDir)$(OutDir)FilteringTool.exe" "$(SolutionDir)Output\FilteringTool\FilteringTool.exe"
+copy   "$(ProjectDir)FilteringTool.ico" "$(SolutionDir)Output\FilteringTool.ico"
+copy   "$(ProjectDir)License.rtf" "$(SolutionDir)Output\License.rtf"
+copy   "$(ProjectDir)License.txt" "$(SolutionDir)Output\License.txt"
+copy   "$(ProjectDir)ReleaseNote.txt" "$(SolutionDir)Output\ReleaseNote.txt"
+copy   "$(ProjectDir)Readme.txt" "$(SolutionDir)Output\Readme.txt"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

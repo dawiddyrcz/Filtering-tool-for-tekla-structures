@@ -1,0 +1,7 @@
+﻿Filtering Tool Release Note
+
+version: deccription
+
+5.0.0: First public issue
+
+5.1.0: Some bug fixes. License changed from freeware to open source. First public issue of source codes. https://github.com/dawiddyrcz/Filtering-tool-for-tekla-structures

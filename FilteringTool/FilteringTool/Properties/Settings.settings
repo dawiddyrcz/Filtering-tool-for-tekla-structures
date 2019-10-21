@@ -1,0 +1,52 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FilteringTool.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CurrentFilterType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Assembly</Value>
+    </Setting>
+    <Setting Name="AddWeldMinusOneFilter" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="AddComponentFilter" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ChangeOnlySelectedViews" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ShowShowObjectInfoInTheBottomOfTeklaWindow" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ObjectInfoPart" Type="System.String" Scope="User">
+      <Value Profile="(Default)">%NAME% %PROFILE%  %MATERIAL% %TOP_LEVEL_GLOBAL%/%BOTTOM_LEVEL_GLOBAL% Weight: %WEIGHT% Class: %CLASS_ATTR% Phases: %PHASE%/%ASSEMBLY.PHASE%
+</Value>
+    </Setting>
+    <Setting Name="ObjectInfoAssembly" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Main profile: %MAINPART.PROFILE%  %MAINPART.MATERIAL%  Dim: %WIDTH% x %HEIGHT% x %LENGTH% Weight: %WEIGHT% Phase: %PHASE%   Pos: %ASSEMBLY_POS%</Value>
+    </Setting>
+    <Setting Name="ObjectInfoBolt" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Bolt size: %DIAMETER% Length: %LENGTH%  %TYPE%    %TYPE1%   %TYPE2% </Value>
+    </Setting>
+    <Setting Name="ObjectInfoRebar" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Name: %NAME%  Size: %SIZE%  Material: %MATERIAL% Weight: %WEIGHT% Class: %CLASS% Phase: %PHASE%</Value>
+    </Setting>
+    <Setting Name="LastVersionCheck" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">1900-01-01</Value>
+    </Setting>
+    <Setting Name="LastAdvertCheck" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">1900-01-01</Value>
+    </Setting>
+    <Setting Name="UpgradeRequired" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="FileMajorPartFromWebsite" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="FileMinorPartFromWebsite" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LinkToDownloadFromWebsite" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
