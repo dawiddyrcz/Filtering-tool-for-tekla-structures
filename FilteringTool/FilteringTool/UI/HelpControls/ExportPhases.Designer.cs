@@ -56,7 +56,7 @@ namespace FilteringTool.UI.HelpControls
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(23, 98);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1017, 526);
+            this.pictureBox1.Size = new System.Drawing.Size(939, 526);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -67,14 +67,13 @@ namespace FilteringTool.UI.HelpControls
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.Location = new System.Drawing.Point(19, 57);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(368, 21);
+            this.label1.Size = new System.Drawing.Size(366, 21);
             this.label1.TabIndex = 2;
             this.label1.Text = "To export model phases click Menu > Export phases";
             // 
             // ExportPhases
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label);

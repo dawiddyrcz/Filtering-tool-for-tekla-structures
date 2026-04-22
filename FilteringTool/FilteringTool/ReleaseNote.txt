@@ -5,3 +5,7 @@ version: deccription
 5.0.0: First public issue
 
 5.1.0: Some bug fixes. License changed from freeware to open source. First public issue of source codes. https://github.com/dawiddyrcz/Filtering-tool-for-tekla-structures
+
+5.2.0 Added option for rebar filter
+
+5.3.0 Repaired program for new Tekla Structures. Added tsep installers for tekla 2016-2026+. Updated UI style. Repaired UI scaling behaviour on high resolution monitor witch scale 125%, 150%, 200%. Filterin tool is now present in Tekla Structures catalog like other macros.

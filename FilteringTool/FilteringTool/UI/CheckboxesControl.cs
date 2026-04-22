@@ -2,6 +2,7 @@
 /* See license file */
 
 using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace FilteringTool.UI
@@ -18,15 +19,6 @@ namespace FilteringTool.UI
         public CheckboxesControl()
         {
             InitializeComponent();
-
-            foreach (var obj in this.Controls)
-            {
-#pragma warning disable IDE0019 // Use pattern matching
-                var control = obj as Control;
-                if (control != null)
-                    control.MouseUp += new MouseEventHandler(RaiseMouseRightClickedEventIfRightClick);
-#pragma warning restore IDE0019 // Use pattern matching
-            }
         }
 
         public bool CheckboxesChanged() => checkBoxesChanged;
@@ -40,7 +32,8 @@ namespace FilteringTool.UI
 
         private void RaiseMouseRightClickedEventIfRightClick(object sender, MouseEventArgs e)
         {
-            if (e.Button == MouseButtons.Right) MouseRightClicked?.Invoke();
+            if (e.Button == MouseButtons.Right)
+                MouseRightClicked?.Invoke();
         }
 
         #region PRIVATE_METHODS
@@ -200,6 +193,256 @@ namespace FilteringTool.UI
 
         #endregion
 
+        #region LabelClick
+        private void Component_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !component_checkBox.Checked;
+            component_checkBox.Checked = value;
+
+            if (Control.ModifierKeys == this.ModifierKey)
+            {
+                component2_checkBox.Checked = value;
+            }
+        }
+
+        private void cut_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !cut_checkBox.Checked;
+            cut_checkBox.Checked = value;
+
+            if (Control.ModifierKeys == this.ModifierKey)
+            {
+                cut2_checkBox.Checked = value;
+            }
+        }
+
+        private void fitting_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !fitting_checkBox.Checked;
+            fitting_checkBox.Checked = value;
+
+            if (Control.ModifierKeys == this.ModifierKey)
+            {
+                fitting2_checkBox.Checked = value;
+            }
+        }
+
+        private void lines_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !lines_checkBox.Checked;
+            lines_checkBox.Checked = value;
+        }
+
+        private void planes_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !planes_checkBox.Checked;
+            planes_checkBox.Checked = value;
+
+            if (Control.ModifierKeys == this.ModifierKey)
+            {
+                planes2_checkBox.Checked = value;
+            }
+        }
+
+        private void points_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !points_checkBox.Checked;
+            points_checkBox.Checked = value;
+
+            if (Control.ModifierKeys == this.ModifierKey)
+            {
+                points2_checkBox.Checked = value;
+            }
+        }
+
+        private void weld_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !weld_checkBox.Checked;
+            weld_checkBox.Checked = value;
+
+            if (Control.ModifierKeys == this.ModifierKey)
+            {
+                weld2_checkBox.Checked = value;
+            }
+        }
+
+        private void bolt_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !bolt_checkBox.Checked;
+            bolt_checkBox.Checked = value;
+
+            if (Control.ModifierKeys == this.ModifierKey)
+            {
+                bolt2_checkBox.Checked = value;
+            }
+        }
+
+        private void holes_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !holes_checkBox.Checked;
+            holes_checkBox.Checked = value;
+
+            if (Control.ModifierKeys == this.ModifierKey)
+            {
+                holes2_checkBox.Checked = value;
+            }
+        }
+
+        private void rebars_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !rebars_checkBox.Checked;
+            rebars_checkBox.Checked = value;
+
+            if (Control.ModifierKeys == this.ModifierKey)
+            {
+                rebars2_checkBox.Checked = value;
+            }
+        }
+
+        private void parts_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !parts_checkBox.Checked;
+            parts_checkBox.Checked = value;
+
+            if (Control.ModifierKeys == this.ModifierKey)
+            {
+                parts2_checkBox.Checked = value;
+            }
+        }
+
+        private void grid_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !grid_checkBox.Checked;
+            grid_checkBox.Checked = value;
+        }
+
+        private void loads_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !loads_checkBox.Checked;
+            loads_checkBox.Checked = value;
+        }
+
+        private void surfaces_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !surfaces_checkBox.Checked;
+            surfaces_checkBox.Checked = value;
+        }
+
+        private void pourBreaks_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !pourBreaks_checkBox.Checked;
+            pourBreaks_checkBox.Checked = value;
+        }
+
+        private void references_label_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                MouseRightClicked?.Invoke();
+                return;
+            }
+
+            bool value = !references_checkBox.Checked;
+            references_checkBox.Checked = value;
+        }
+
+        #endregion
         private void ToolTip1_Popup(object sender, PopupEventArgs e) => ToolTipPopup?.Invoke();
+
+        public override Size GetPreferredSize(Size proposedSize)
+        {
+            return tableLayoutPanel1.GetPreferredSize(proposedSize);
+        }
+
     }
 }

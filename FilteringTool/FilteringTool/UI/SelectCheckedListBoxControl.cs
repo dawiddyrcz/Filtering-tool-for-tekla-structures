@@ -3,6 +3,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace FilteringTool.UI
@@ -270,18 +271,25 @@ namespace FilteringTool.UI
 
             public int CompareTo(object obj)
             {
-                if (obj == null) return 1;
+                if (obj is null) 
+                    return 1;
                 else
                 {
                     var item = obj as SelectPhaseRow;
-                    if (item == null) return 1;
+                    if (item is null) 
+                        return 1;
 
-                    if (Number <= item.Number) return -1;
+                    if (Number <= item.Number) 
+                        return -1;
                     else return 1;
                 }
             }
+
         }
 
-
+        public override Size GetPreferredSize(Size proposedSize)
+        {
+            return checkedListBox.GetPreferredSize(proposedSize);
+        }
     }
 }

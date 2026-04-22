@@ -56,7 +56,7 @@ namespace FilteringTool.UI.HelpControls
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.Location = new System.Drawing.Point(19, 57);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(465, 21);
+            this.label1.Size = new System.Drawing.Size(463, 21);
             this.label1.TabIndex = 2;
             this.label1.Text = "The best way to run Filtering Tool is using shortcut on the taskbar.";
             // 
@@ -66,7 +66,7 @@ namespace FilteringTool.UI.HelpControls
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.Location = new System.Drawing.Point(19, 87);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(549, 21);
+            this.label2.Size = new System.Drawing.Size(547, 21);
             this.label2.TabIndex = 3;
             this.label2.Text = "Do not pin Filtering Tool to the taskbar (it wouldnt work correctly) but instead " +
     "";
@@ -92,8 +92,7 @@ namespace FilteringTool.UI.HelpControls
             // 
             // TaskbarShortcut
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);

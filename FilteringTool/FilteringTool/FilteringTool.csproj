@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>FilteringTool</RootNamespace>
     <AssemblyName>FilteringTool</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>false</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -59,12 +59,16 @@
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
     <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Remoting" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -73,33 +77,29 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Tekla.Application.Library, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\00_References\References_2018\Tekla.Application.Library.dll</HintPath>
+    <Reference Include="Tekla.Application.Library, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tekla.Application.Library.2023.0.1\lib\net40\Tekla.Application.Library.dll</HintPath>
     </Reference>
-    <Reference Include="Tekla.Structures, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\00_References\References_2018\Tekla.Structures.dll</HintPath>
+    <Reference Include="Tekla.Structures, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tekla.Structures.2023.0.1\lib\net40\Tekla.Structures.dll</HintPath>
     </Reference>
-    <Reference Include="Tekla.Structures.Catalogs, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\00_References\References_2018\Tekla.Structures.Catalogs.dll</HintPath>
+    <Reference Include="Tekla.Structures.Catalogs, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tekla.Structures.Catalogs.2023.0.1\lib\net40\Tekla.Structures.Catalogs.dll</HintPath>
     </Reference>
-    <Reference Include="Tekla.Structures.Dialog, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\00_References\References_2018\Tekla.Structures.Dialog.dll</HintPath>
+    <Reference Include="Tekla.Structures.Datatype, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tekla.Structures.Datatype.2023.0.1\lib\net40\Tekla.Structures.Datatype.dll</HintPath>
     </Reference>
-    <Reference Include="Tekla.Structures.Drawing, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\00_References\References_2018\Tekla.Structures.Drawing.dll</HintPath>
+    <Reference Include="Tekla.Structures.Dialog, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tekla.Structures.Dialog.2023.0.1\lib\net40\Tekla.Structures.Dialog.dll</HintPath>
     </Reference>
-    <Reference Include="Tekla.Structures.Model, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\00_References\References_2018\Tekla.Structures.Model.dll</HintPath>
+    <Reference Include="Tekla.Structures.Drawing, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tekla.Structures.Drawing.2023.0.1\lib\net40\Tekla.Structures.Drawing.dll</HintPath>
     </Reference>
-    <Reference Include="Tekla.Structures.Plugins, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\00_References\References_2018\Tekla.Structures.Plugins.dll</HintPath>
+    <Reference Include="Tekla.Structures.Model, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tekla.Structures.Model.2023.0.1\lib\net40\Tekla.Structures.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Tekla.Structures.Plugins, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tekla.Structures.Plugins.2023.0.1\lib\net40\Tekla.Structures.Plugins.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -115,7 +115,9 @@
     <Compile Include="ExportImport\SerializablePhase.cs" />
     <Compile Include="ExportImport\SerializablePhaseCollection.cs" />
     <Compile Include="FilteringToolClass.cs" />
+    <Compile Include="ModelSettings.cs" />
     <Compile Include="PhaseObjectSelector.cs" />
+    <Compile Include="Properties\Version.cs" />
     <Compile Include="TeklaMacroDirectory.cs" />
     <Compile Include="TeklaObjects\ModelObjectRepotProperty.cs" />
     <Compile Include="TeklaObjects\SettingsParser.cs" />
@@ -462,9 +464,11 @@
       <DependentUpon>ViewCheckedListBoxControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
+    <None Include="app.manifest" />
     <None Include="License.rtf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -474,16 +478,47 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="_Build\01_Build.bat" />
+    <None Include="_Build\02_SignOutput.bat" />
+    <None Include="_Build\03_CreateTsep.bat" />
+    <None Include="_Build\03_CreateTsep_Signed.bat" />
+    <None Include="_Build\04_Reinstall_TSEP_2026.bat" />
+    <None Include="_Build\07_Build_MSI.bat" />
+    <None Include="_Build\08_Sign_MSI.bat" />
+    <None Include="_Build\05_Build_InstallerClass.bat" />
+    <None Include="_Build\06_Sign_InstallerClass.bat" />
+    <None Include="_Build\98_Uninstall_From_All.bat" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="FilteringTool.ico" />
     <Content Include="License.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Readme.txt" />
     <Content Include="ReleaseNote.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Resources\element_catalog_cross_section.bmp" />
+    <Content Include="Resources\element_catalog_cross_section_sketch.bmp" />
+    <Content Include="Resources\element_catalog_cross_section_user.bmp" />
+    <Content Include="Resources\prtyp_tree_1.bmp" />
+    <Content Include="Resources\prtyp_tree_10.bmp" />
+    <Content Include="Resources\prtyp_tree_11.bmp" />
+    <Content Include="Resources\prtyp_tree_13.bmp" />
+    <Content Include="Resources\prtyp_tree_15.bmp" />
+    <Content Include="Resources\prtyp_tree_2.bmp" />
+    <Content Include="Resources\prtyp_tree_3.bmp" />
+    <Content Include="Resources\prtyp_tree_4.bmp" />
+    <Content Include="Resources\prtyp_tree_5.bmp" />
+    <Content Include="Resources\prtyp_tree_6.bmp" />
+    <Content Include="Resources\prtyp_tree_7.bmp" />
+    <Content Include="Resources\prtyp_tree_8.bmp" />
+    <Content Include="Resources\prtyp_tree_9.bmp" />
+    <Content Include="TODO.txt" />
+    <Content Include="_Assets\DDBIMFilteringTool_ComponentCatalog.ac.xml" />
+    <Content Include="_Assets\Icon.png" />
+    <Content Include="_Assets\TsepDefinition_2025plus.xml" />
+    <Content Include="_Assets\TsepDefinition.xml" />
+    <Content Include="_Assets\et_element_Filtering Tool.bmp" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
@@ -496,14 +531,4 @@
     <Folder Include="UI\HelpControls\res\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>if not exist "$(SolutionDir)Output\" mkdir "$(SolutionDir)Output\"
-if not exist "$(SolutionDir)Output\FilteringTool\" mkdir "$(SolutionDir)Output\FilteringTool\"
-copy  "$(ProjectDir)$(OutDir)FilteringTool.exe" "$(SolutionDir)Output\FilteringTool\FilteringTool.exe"
-copy   "$(ProjectDir)FilteringTool.ico" "$(SolutionDir)Output\FilteringTool.ico"
-copy   "$(ProjectDir)License.rtf" "$(SolutionDir)Output\License.rtf"
-copy   "$(ProjectDir)License.txt" "$(SolutionDir)Output\License.txt"
-copy   "$(ProjectDir)ReleaseNote.txt" "$(SolutionDir)Output\ReleaseNote.txt"
-copy   "$(ProjectDir)Readme.txt" "$(SolutionDir)Output\Readme.txt"</PostBuildEvent>
-  </PropertyGroup>
 </Project>

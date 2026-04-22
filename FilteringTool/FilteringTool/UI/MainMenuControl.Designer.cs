@@ -52,7 +52,7 @@ namespace FilteringTool.UI
             this.menuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(64, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(135, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -134,11 +134,10 @@ namespace FilteringTool.UI
             // 
             // MainMenuControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.Controls.Add(this.menuStrip1);
             this.Name = "MainMenuControl";
-            this.Size = new System.Drawing.Size(64, 25);
+            this.Size = new System.Drawing.Size(135, 61);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

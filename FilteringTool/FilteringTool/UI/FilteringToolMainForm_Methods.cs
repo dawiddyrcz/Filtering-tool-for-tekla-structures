@@ -264,24 +264,7 @@ namespace FilteringTool.UI
             this.TopMost = false;
         }
 
-        private DateTime lastRefreshOnMouseMove = new DateTime();
-
-        private void ViewMouseMove()
-        {
-            try
-            {
-                int index = this.view_checkedListBox.TopIndex;
-                this.select_checkedListBox.TopIndex = index;
-
-                if (DateTime.Now.AddSeconds(-10) > lastRefreshOnMouseMove)
-                {
-                    this.Refresh();
-                    lastRefreshOnMouseMove = DateTime.Now;
-                }
-            }
-            catch (Exception) { }
-
-        }
+        
 
 
     }

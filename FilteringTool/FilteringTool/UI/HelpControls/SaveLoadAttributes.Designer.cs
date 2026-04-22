@@ -54,7 +54,7 @@ namespace FilteringTool.UI.HelpControls
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.Location = new System.Drawing.Point(4, 40);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(417, 21);
+            this.label2.Size = new System.Drawing.Size(416, 21);
             this.label2.TabIndex = 1;
             this.label2.Text = "You can save selected phases to attribute file and load later";
             // 
@@ -70,8 +70,7 @@ namespace FilteringTool.UI.HelpControls
             // 
             // SaveLoadAttributes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

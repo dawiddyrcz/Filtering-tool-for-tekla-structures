@@ -12,17 +12,7 @@ namespace FilteringTool.UI
         {
             InitializeComponent();
         }
-
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            Clipboard.SetText("filteringtool@ddbim.pl");
-        }
-
-        private void LinkedIn_linkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            new LinkForm(linkedIn_linkLabel.Text).ShowDialog();
-        }
-
+        
         private void Youtube_linkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             new LinkForm(youtube_linkLabel.Text).ShowDialog();

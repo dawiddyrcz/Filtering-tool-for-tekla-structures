@@ -54,7 +54,7 @@ namespace FilteringTool.UI.HelpControls
             this.label.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label.Location = new System.Drawing.Point(18, 17);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(134, 30);
+            this.label.Size = new System.Drawing.Size(133, 30);
             this.label.TabIndex = 0;
             this.label.Text = "Weld -1 filter";
             // 
@@ -64,7 +64,7 @@ namespace FilteringTool.UI.HelpControls
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.Location = new System.Drawing.Point(19, 57);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(465, 21);
+            this.label1.Size = new System.Drawing.Size(464, 21);
             this.label1.TabIndex = 2;
             this.label1.Text = "You can turn on / off additional filter for welds in Menu > Options";
             // 
@@ -83,7 +83,7 @@ namespace FilteringTool.UI.HelpControls
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.Location = new System.Drawing.Point(19, 90);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(690, 21);
+            this.label2.Size = new System.Drawing.Size(689, 21);
             this.label2.TabIndex = 4;
             this.label2.Text = "That option is very usefull in weld modeling.  You can set weld size to -1 in all" +
     " not important welds.";
@@ -164,8 +164,7 @@ namespace FilteringTool.UI.HelpControls
             // 
             // WeldMinusOne
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);

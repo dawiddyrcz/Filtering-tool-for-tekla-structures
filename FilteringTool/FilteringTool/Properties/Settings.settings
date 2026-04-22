@@ -17,10 +17,6 @@
     <Setting Name="ShowShowObjectInfoInTheBottomOfTeklaWindow" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
-    <Setting Name="ObjectInfoPart" Type="System.String" Scope="User">
-      <Value Profile="(Default)">%NAME% %PROFILE%  %MATERIAL% %TOP_LEVEL_GLOBAL%/%BOTTOM_LEVEL_GLOBAL% Weight: %WEIGHT% Class: %CLASS_ATTR% Phases: %PHASE%/%ASSEMBLY.PHASE%
-</Value>
-    </Setting>
     <Setting Name="ObjectInfoAssembly" Type="System.String" Scope="User">
       <Value Profile="(Default)">Main profile: %MAINPART.PROFILE%  %MAINPART.MATERIAL%  Dim: %WIDTH% x %HEIGHT% x %LENGTH% Weight: %WEIGHT% Phase: %PHASE%   Pos: %ASSEMBLY_POS%</Value>
     </Setting>
@@ -47,6 +43,12 @@
     </Setting>
     <Setting Name="LinkToDownloadFromWebsite" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AddRebarFilter" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ObjectInfoPart" Type="System.String" Scope="User">
+      <Value Profile="(Default)">%NAME% %PROFILE%  %MATERIAL% %TOP_LEVEL_GLOBAL%/%BOTTOM_LEVEL_GLOBAL% Weight: %WEIGHT% Phases: %PHASE%/%ASSEMBLY.PHASE%</Value>
     </Setting>
   </Settings>
 </SettingsFile>

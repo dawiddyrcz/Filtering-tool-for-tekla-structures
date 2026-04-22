@@ -12,62 +12,56 @@ namespace FilteringTool.UI.HelpControls
         {
             var helpItems = new List<UserControl>();
 
-            UserControl item1 = new Overview();
+            var item1 = new Overview();
             helpItems.Add(item1);
 
-            item1 = new ViewFilter();
-            helpItems.Add(item1);
+            var item2 = new ViewFilter();
+            helpItems.Add(item2);
 
-            item1 = new SelectionFilter();
-            helpItems.Add(item1);
+            var item3 = new SelectionFilter();
+            helpItems.Add(item3);
 
-            item1 = new DisplaySettings();
-            helpItems.Add(item1);
+            var item4 = new DisplaySettings();
+            helpItems.Add(item4);
 
-            item1 = new SelectAllUnselectAll();
-            helpItems.Add(item1);
+            var item5 = new SelectAllUnselectAll();
+            helpItems.Add(item5);
 
-            item1 = new MultiSelect();
-            helpItems.Add(item1);
+            var item6 = new MultiSelect();
+            helpItems.Add(item6);
 
-            item1 = new SaveLoadAttributes();
-            helpItems.Add(item1);
+            var item7 = new SaveLoadAttributes();
+            helpItems.Add(item7);
 
-            item1 = new SetCurrentPhase();
-            helpItems.Add(item1);
+            var item8 = new SetCurrentPhase();
+            helpItems.Add(item8);
 
-            item1 = new AddNewPhase();
-            helpItems.Add(item1);
+            var item9 = new AddNewPhase();
+            helpItems.Add(item9);
 
-            item1 = new MoveObjectsToPhase();
-            helpItems.Add(item1);
+            var item10 = new MoveObjectsToPhase();
+            helpItems.Add(item10);
 
-            item1 = new HideShowWindow();
-            helpItems.Add(item1);
+            var item11 = new HideShowWindow();
+            helpItems.Add(item11);
 
-            item1 = new SmallWindowMode();
-            helpItems.Add(item1);
+            var item12 = new SmallWindowMode();
+            helpItems.Add(item12);
 
-            item1 = new ImportPhases();
-            helpItems.Add(item1);
+            var item13 = new ImportPhases();
+            helpItems.Add(item13);
 
-            item1 = new ExportPhases();
-            helpItems.Add(item1);
+            var item14 = new ExportPhases();
+            helpItems.Add(item14);
 
-            item1 = new WeldMinusOne();
-            helpItems.Add(item1);
+            var item15 = new WeldMinusOne();
+            helpItems.Add(item15);
 
-            item1 = new TaskbarShortcut();
-            helpItems.Add(item1);
+            var item16 = new NearestPlane();
+            helpItems.Add(item16);
 
-            item1 = new WeldMinusOne();
-            helpItems.Add(item1);
-
-            item1 = new NearestPlane();
-            helpItems.Add(item1);
-
-            item1 = new ObjectInfo();
-            helpItems.Add(item1);
+            var item17 = new ObjectInfo();
+            helpItems.Add(item17);
 
             return helpItems;
         }

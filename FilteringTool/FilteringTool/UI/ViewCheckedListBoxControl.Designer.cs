@@ -38,32 +38,31 @@ namespace FilteringTool.UI
             this.moveObjectsToPhaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addNewPhaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.renamePhaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.selectObjectsByPhaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.selectAllPhasesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unselectAllPhasesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.refreshToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.selectObjectsByPhaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // checkedListBox
             // 
-            this.checkedListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.checkedListBox.CheckOnClick = true;
+            this.checkedListBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkedListBox.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkedListBox.FormattingEnabled = true;
             this.checkedListBox.Location = new System.Drawing.Point(0, 0);
             this.checkedListBox.Margin = new System.Windows.Forms.Padding(0);
             this.checkedListBox.Name = "checkedListBox";
-            this.checkedListBox.Size = new System.Drawing.Size(100, 214);
+            this.checkedListBox.Size = new System.Drawing.Size(67, 160);
             this.checkedListBox.TabIndex = 0;
             this.checkedListBox.MouseMove += new System.Windows.Forms.MouseEventHandler(this.View_checkedListBox_MouseMove);
             this.checkedListBox.MouseUp += new System.Windows.Forms.MouseEventHandler(this.CheckedListBoxMouseUp);
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.setCurrentPhaseToolStripMenuItem,
             this.moveObjectsToPhaseToolStripMenuItem,
@@ -74,7 +73,7 @@ namespace FilteringTool.UI
             this.unselectAllPhasesToolStripMenuItem,
             this.refreshToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(197, 202);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(197, 180);
             // 
             // setCurrentPhaseToolStripMenuItem
             // 
@@ -104,6 +103,13 @@ namespace FilteringTool.UI
             this.renamePhaseToolStripMenuItem.Text = "Rename phase";
             this.renamePhaseToolStripMenuItem.Click += new System.EventHandler(this.RenamePhaseToolStripMenuItem_Click);
             // 
+            // selectObjectsByPhaseToolStripMenuItem
+            // 
+            this.selectObjectsByPhaseToolStripMenuItem.Name = "selectObjectsByPhaseToolStripMenuItem";
+            this.selectObjectsByPhaseToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.selectObjectsByPhaseToolStripMenuItem.Text = "Select objects by phase";
+            this.selectObjectsByPhaseToolStripMenuItem.Click += new System.EventHandler(this.SelectObjectsByPhaseToolStripMenuItem_Click);
+            // 
             // selectAllPhasesToolStripMenuItem
             // 
             this.selectAllPhasesToolStripMenuItem.Name = "selectAllPhasesToolStripMenuItem";
@@ -125,17 +131,9 @@ namespace FilteringTool.UI
             this.refreshToolStripMenuItem.Text = "Refresh";
             this.refreshToolStripMenuItem.Click += new System.EventHandler(this.RefreshToolStripMenuItem_Click);
             // 
-            // selectObjectsByPhaseToolStripMenuItem
-            // 
-            this.selectObjectsByPhaseToolStripMenuItem.Name = "selectObjectsByPhaseToolStripMenuItem";
-            this.selectObjectsByPhaseToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
-            this.selectObjectsByPhaseToolStripMenuItem.Text = "Select objects by phase";
-            this.selectObjectsByPhaseToolStripMenuItem.Click += new System.EventHandler(this.SelectObjectsByPhaseToolStripMenuItem_Click);
-            // 
             // ViewCheckedListBoxControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.Controls.Add(this.checkedListBox);
             this.Name = "ViewCheckedListBoxControl";
             this.Size = new System.Drawing.Size(100, 240);

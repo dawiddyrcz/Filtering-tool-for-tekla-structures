@@ -330,25 +330,33 @@ namespace FilteringTool.UI
 
             public int CompareTo(object obj)
             {
-                if (obj == null) return 1;
+                if (obj is null) 
+                    return 1;
                 else
                 {
                     var item = obj as PhaseRow;
-                    if (item == null) return 1;
+                    if (item is null) 
+                        return 1;
 
-                    if (Number <= item.Number) return -1;
-                    else return 1;
+                    if (Number <= item.Number) 
+                        return -1;
+                    else 
+                        return 1;
                 }
             }
 
             public override bool Equals(object obj)
             {
                 var pRow = obj as PhaseRow;
-                if (pRow == null) return false;
+                if (pRow is null) 
+                    return false;
                 return this.ToString().Equals(pRow.ToString());
             }
         }
 
-
+        public override Size GetPreferredSize(Size proposedSize)
+        {
+            return checkedListBox.GetPreferredSize(proposedSize);
+        }
     }
 }

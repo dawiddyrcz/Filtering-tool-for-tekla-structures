@@ -44,7 +44,7 @@ namespace FilteringTool.UI.HelpControls
             this.label.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label.Location = new System.Drawing.Point(18, 17);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(153, 30);
+            this.label.Size = new System.Drawing.Size(152, 30);
             this.label.TabIndex = 0;
             this.label.Text = "Refresh phases";
             // 
@@ -73,8 +73,7 @@ namespace FilteringTool.UI.HelpControls
             // 
             // RefreshPhases
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label);

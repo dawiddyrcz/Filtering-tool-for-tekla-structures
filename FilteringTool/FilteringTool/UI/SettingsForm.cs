@@ -22,6 +22,7 @@ namespace FilteringTool.UI
             assemblyInfo_textBox.Text = Settings.ObjectInfoAssembly;
             boltInfo_textBox.Text = Settings.ObjectInfoBolt;
             rebarInfo_textBox.Text = Settings.ObjectInfoRebar;
+            addRebarFilter_checkBox.Checked = Settings.AddRebarFilter;
         }
 
         private void CheckRadioButton()
@@ -71,7 +72,8 @@ namespace FilteringTool.UI
             Settings.ObjectInfoAssembly = assemblyInfo_textBox.Text;
             Settings.ObjectInfoBolt = boltInfo_textBox.Text;
             Settings.ObjectInfoRebar = rebarInfo_textBox.Text;
-
+            Settings.AddRebarFilter = addRebarFilter_checkBox.Checked;
+            Settings.Save();
             Settings.Save();
         }
 

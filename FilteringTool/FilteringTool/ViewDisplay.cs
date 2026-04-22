@@ -50,22 +50,95 @@ namespace FilteringTool
         {
             if (Drawing.IsNotOpened())
             {
-                if (TeklaStructures.Connect())
+                if (TeklaStructures_2017_OrNewer())
                 {
-                    try
-                    {
-                        TeklaMacroDirectory.CheckIfExists();
-                        var macro = new MacroBuilder();
-                        CreateMacro(ref macro);
-                        macro.Run();
-                        macro = null;
-                    }
-                    catch (Exception ex)
-                    {
-                        string message = "Cannot change display settings";
-                        message = message + "\n\n" + Exceptions.IOExceptionsHandler.GetMessage(ex);
-                        throw new Exceptions.FilteringToolException(message, ex);
-                    }
+                    NewMethod();
+                }
+                else
+                {
+                    OldMethod();
+                }
+            }
+        }
+
+        private bool TeklaStructures_2017_OrNewer()
+        {
+            return ModelSettings.TeklaVersion >= new Version(2017, 0);
+        }
+
+        private void NewMethod()
+        {
+            var selectedViewsEnumerator = Tekla.Structures.Model.UI.ViewHandler.GetSelectedViews();
+
+            while (selectedViewsEnumerator.MoveNext())
+            {
+                var view = selectedViewsEnumerator.Current;
+                view.Select();
+                view.VisibilitySettings.PointsVisible = this.Points;
+                view.VisibilitySettings.PointsVisibleInComponents = this.Points; //??
+
+                view.VisibilitySettings.PartsVisible = this.PartsInModel;
+                view.VisibilitySettings.PartsVisibleInComponents = this.PartsInComponents;
+
+                view.VisibilitySettings.BoltsVisible = this.BoltsInModel;
+                view.VisibilitySettings.BoltsVisibleInComponents = this.BoltsInComponents;
+
+                view.VisibilitySettings.BoltHolesVisible = this.HolesInModel;
+                view.VisibilitySettings.BoltHolesVisibleInComponents = this.HolesInComponents;
+
+                view.VisibilitySettings.WeldsVisible = this.WeldsInModel;
+                view.VisibilitySettings.WeldsVisibleInComponents = this.WeldsInComponents;
+
+                view.VisibilitySettings.ConstructionPlanesVisible = this.ConstructionPlanesInModel;
+                view.VisibilitySettings.ConstructionPlanesVisibleInComponents = this.ConstructionPlanesInComponents;
+
+                view.VisibilitySettings.ConstructionLinesVisible = this.ConstructionLines;
+
+                view.VisibilitySettings.RebarsVisible = this.ReinforcingBarsInModel;
+                view.VisibilitySettings.RebarsVisibleInComponents = this.ReinforcingBarsInComponents;
+
+                view.VisibilitySettings.SurfaceTreatmentsVisible = this.SurfaceTreatmentAndSurfaces;
+
+                view.VisibilitySettings.ReferenceObjectsVisible = this.ReferenceObjects;
+                view.VisibilitySettings.LoadsVisible = this.Loads;
+
+                view.VisibilitySettings.PourBreaksVisible = this.PourBreaks;
+                view.VisibilitySettings.PoursVisible = this.PourBreaks;
+
+                view.VisibilitySettings.CutsVisible = this.CutsAndAddedMaterialsInModel;
+                view.VisibilitySettings.CutsVisibleInComponents = this.CutsAndAddedMaterialsInComponents;
+
+                view.VisibilitySettings.FittingsVisible = this.FittingsInModel;
+                view.VisibilitySettings.FittingsVisibleInComponents = this.FittingsInComponents;
+
+                view.VisibilitySettings.ComponentsVisible = this.ComponentSymbolsInModel;
+                view.VisibilitySettings.ComponentsVisibleInComponents = this.ComponentSymbolsInComponents;
+
+                view.VisibilitySettings.GridsVisible = this.Grids;
+
+                //view.VisibilitySettings.BuildingVisible = 
+                //view.VisibilitySettings.BuildingSpaceVisible =
+
+                view.Modify();
+            }
+        }
+        private void OldMethod()
+        {
+            if (TeklaStructures.Connect())
+            {
+                try
+                {
+                    TeklaMacroDirectory.CheckIfExists();
+                    var macro = new MacroBuilder();
+                    CreateMacro(ref macro);
+                    macro.Run();
+                    macro = null;
+                }
+                catch (Exception ex)
+                {
+                    string message = "Cannot change display settings";
+                    message = message + "\n\n" + Exceptions.IOExceptionsHandler.GetMessage(ex);
+                    throw new Exceptions.FilteringToolException(message, ex);
                 }
             }
         }

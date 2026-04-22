@@ -15,20 +15,20 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_060EF0AAB787FF07942B5C1931CDE8D6"
-        "OwnerKey" = "8:_C5EAA3D831190C34081703B95F6B5C2D"
+        "MsmKey" = "8:_00BCE17EE9703B0E2997362953B6FE40"
+        "OwnerKey" = "8:_70CBD97A186DC612D8944A511CE19B6A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_060EF0AAB787FF07942B5C1931CDE8D6"
-        "OwnerKey" = "8:_7076844BDD74816A85B19CAF6731ADE0"
+        "MsmKey" = "8:_00BCE17EE9703B0E2997362953B6FE40"
+        "OwnerKey" = "8:_8D7F455A574E428680F62AB178D0D214"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_060EF0AAB787FF07942B5C1931CDE8D6"
-        "OwnerKey" = "8:_8C7D4309AA0A24D9710B92DB5A2393CE"
+        "MsmKey" = "8:_09BBD2E32BA7216934258B6C72644D09"
+        "OwnerKey" = "8:_467C7ABD2515F219DD0CB36E64EBBABB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -39,44 +39,140 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_12F0BBF2D5E6E8AF6185060073B5FE89"
-        "OwnerKey" = "8:_7076844BDD74816A85B19CAF6731ADE0"
+        "MsmKey" = "8:_21796BECF79A9369B47EDA71FE19EB6F"
+        "OwnerKey" = "8:_6943CABB1E69DB1F403650839450F434"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_2B2B650B51194484E3FA369C623B35C6"
-        "OwnerKey" = "8:_EAAC215AB21D429F58ECC514CD060BEA"
+        "MsmKey" = "8:_27F9CD8E671AA855A8D24F2AA566CC2B"
+        "OwnerKey" = "8:_FFF5A1A34930B5F309DF798D22E84BBE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_3380EE3A6073470C12265376F429BFC9"
-        "OwnerKey" = "8:_C5EAA3D831190C34081703B95F6B5C2D"
+        "MsmKey" = "8:_27F9CD8E671AA855A8D24F2AA566CC2B"
+        "OwnerKey" = "8:_7504188C439F08037384632BB78E781E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_3380EE3A6073470C12265376F429BFC9"
-        "OwnerKey" = "8:_73C84C865AF4498E8F2DF8C9D71D92D3"
+        "MsmKey" = "8:_27F9CD8E671AA855A8D24F2AA566CC2B"
+        "OwnerKey" = "8:_F38FC74F8626E0A2A3ABC68B005ACA6B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_27F9CD8E671AA855A8D24F2AA566CC2B"
+        "OwnerKey" = "8:_879B00F1304C380B69ED9A359C6D6BB3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_27F9CD8E671AA855A8D24F2AA566CC2B"
+        "OwnerKey" = "8:_6943CABB1E69DB1F403650839450F434"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2F4DD41E832E5F6ADAC1B0737DD40769"
+        "OwnerKey" = "8:_70CBD97A186DC612D8944A511CE19B6A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_37678A51E5CBBE0675BCFD66659271F2"
+        "OwnerKey" = "8:_467C7ABD2515F219DD0CB36E64EBBABB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3D3E8F0628FC3B38F9B0F105922270D2"
+        "OwnerKey" = "8:_70CBD97A186DC612D8944A511CE19B6A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3D3E8F0628FC3B38F9B0F105922270D2"
+        "OwnerKey" = "8:_8D7F455A574E428680F62AB178D0D214"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4129010569B8C5DE387FF84F3E35A0B3"
+        "OwnerKey" = "8:_70CBD97A186DC612D8944A511CE19B6A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4129010569B8C5DE387FF84F3E35A0B3"
+        "OwnerKey" = "8:_00BCE17EE9703B0E2997362953B6FE40"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4129010569B8C5DE387FF84F3E35A0B3"
+        "OwnerKey" = "8:_3D3E8F0628FC3B38F9B0F105922270D2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4129010569B8C5DE387FF84F3E35A0B3"
+        "OwnerKey" = "8:_467C7ABD2515F219DD0CB36E64EBBABB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4129010569B8C5DE387FF84F3E35A0B3"
+        "OwnerKey" = "8:_8CF6B5CB5944CCAA47119D39DF070581"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_467C7ABD2515F219DD0CB36E64EBBABB"
+        "OwnerKey" = "8:_8CF6B5CB5944CCAA47119D39DF070581"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_467C7ABD2515F219DD0CB36E64EBBABB"
+        "OwnerKey" = "8:_70CBD97A186DC612D8944A511CE19B6A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_467C7ABD2515F219DD0CB36E64EBBABB"
+        "OwnerKey" = "8:_00BCE17EE9703B0E2997362953B6FE40"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_467C7ABD2515F219DD0CB36E64EBBABB"
+        "OwnerKey" = "8:_3D3E8F0628FC3B38F9B0F105922270D2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_487EAE9C9A224537B13C50878574E8FA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4DC93ED0DF7B41248A24CFE0BF8A5A83"
+        "OwnerKey" = "8:_B28E4B341C6FBAECAA71B3BACA869950"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_617EB6AEEE1BC6FCC8B5B8F25D6FCDAA"
-        "OwnerKey" = "8:_12F0BBF2D5E6E8AF6185060073B5FE89"
+        "OwnerKey" = "8:_EE93AF80AA59BF6E9A73E9875B7A2B60"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_631DF5B91C71CFD3FD88F45ECBE491C1"
-        "OwnerKey" = "8:_7076844BDD74816A85B19CAF6731ADE0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_631DF5B91C71CFD3FD88F45ECBE491C1"
-        "OwnerKey" = "8:_3380EE3A6073470C12265376F429BFC9"
+        "MsmKey" = "8:_617EB6AEEE1BC6FCC8B5B8F25D6FCDAA"
+        "OwnerKey" = "8:_EB1FA981C8A605262DBD11E9A48EBA37"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -87,20 +183,38 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_7076844BDD74816A85B19CAF6731ADE0"
-        "OwnerKey" = "8:_C5EAA3D831190C34081703B95F6B5C2D"
+        "MsmKey" = "8:_6943CABB1E69DB1F403650839450F434"
+        "OwnerKey" = "8:_FFF5A1A34930B5F309DF798D22E84BBE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_7076844BDD74816A85B19CAF6731ADE0"
+        "MsmKey" = "8:_6943CABB1E69DB1F403650839450F434"
         "OwnerKey" = "8:_73C84C865AF4498E8F2DF8C9D71D92D3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_7076844BDD74816A85B19CAF6731ADE0"
-        "OwnerKey" = "8:_3380EE3A6073470C12265376F429BFC9"
+        "MsmKey" = "8:_6943CABB1E69DB1F403650839450F434"
+        "OwnerKey" = "8:_879B00F1304C380B69ED9A359C6D6BB3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6943CABB1E69DB1F403650839450F434"
+        "OwnerKey" = "8:_7504188C439F08037384632BB78E781E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6943CABB1E69DB1F403650839450F434"
+        "OwnerKey" = "8:_F38FC74F8626E0A2A3ABC68B005ACA6B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_70CBD97A186DC612D8944A511CE19B6A"
+        "OwnerKey" = "8:_8D7F455A574E428680F62AB178D0D214"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -112,79 +226,181 @@
         "Entry"
         {
         "MsmKey" = "8:_74E418342B4FD4EA9C222BD9CEBACFE3"
-        "OwnerKey" = "8:_EAAC215AB21D429F58ECC514CD060BEA"
+        "OwnerKey" = "8:_A67B1C4AAD485A549F7E09D6079293E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_74E418342B4FD4EA9C222BD9CEBACFE3"
-        "OwnerKey" = "8:_9374489220B7E5FD1825CA8E14CBE924"
+        "OwnerKey" = "8:_37678A51E5CBBE0675BCFD66659271F2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_74E418342B4FD4EA9C222BD9CEBACFE3"
-        "OwnerKey" = "8:_BAEF736F81BBB11FA585C29E5A5AC66F"
+        "OwnerKey" = "8:_85037517B0033FBDDB704EB9F9B032E2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_74E418342B4FD4EA9C222BD9CEBACFE3"
-        "OwnerKey" = "8:_EDDBFB10542CBE69CD8BA1C5A9EDD433"
+        "OwnerKey" = "8:_09BBD2E32BA7216934258B6C72644D09"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_74E418342B4FD4EA9C222BD9CEBACFE3"
+        "OwnerKey" = "8:_467C7ABD2515F219DD0CB36E64EBBABB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_74E418342B4FD4EA9C222BD9CEBACFE3"
+        "OwnerKey" = "8:_B28E4B341C6FBAECAA71B3BACA869950"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_74E418342B4FD4EA9C222BD9CEBACFE3"
+        "OwnerKey" = "8:_6943CABB1E69DB1F403650839450F434"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_74E418342B4FD4EA9C222BD9CEBACFE3"
+        "OwnerKey" = "8:_4DC93ED0DF7B41248A24CFE0BF8A5A83"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7504188C439F08037384632BB78E781E"
+        "OwnerKey" = "8:_879B00F1304C380B69ED9A359C6D6BB3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7504188C439F08037384632BB78E781E"
+        "OwnerKey" = "8:_73C84C865AF4498E8F2DF8C9D71D92D3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_7DAEBBE519E6430EA8891F165ED4B0AC"
-        "OwnerKey" = "8:_7076844BDD74816A85B19CAF6731ADE0"
+        "OwnerKey" = "8:_7504188C439F08037384632BB78E781E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_7DAEBBE519E6430EA8891F165ED4B0AC"
-        "OwnerKey" = "8:_3380EE3A6073470C12265376F429BFC9"
+        "OwnerKey" = "8:_E105F9A809D3E1C8DD0CAAA831D685DC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_7DAEBBE519E6430EA8891F165ED4B0AC"
-        "OwnerKey" = "8:_631DF5B91C71CFD3FD88F45ECBE491C1"
+        "OwnerKey" = "8:_F38FC74F8626E0A2A3ABC68B005ACA6B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_7DAEBBE519E6430EA8891F165ED4B0AC"
-        "OwnerKey" = "8:_EDDBFB10542CBE69CD8BA1C5A9EDD433"
+        "OwnerKey" = "8:_B28E4B341C6FBAECAA71B3BACA869950"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_7DAEBBE519E6430EA8891F165ED4B0AC"
-        "OwnerKey" = "8:_EAAC215AB21D429F58ECC514CD060BEA"
+        "OwnerKey" = "8:_6943CABB1E69DB1F403650839450F434"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_7DAEBBE519E6430EA8891F165ED4B0AC"
-        "OwnerKey" = "8:_8C7D4309AA0A24D9710B92DB5A2393CE"
+        "OwnerKey" = "8:_FFF5A1A34930B5F309DF798D22E84BBE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_8C7D4309AA0A24D9710B92DB5A2393CE"
-        "OwnerKey" = "8:_7076844BDD74816A85B19CAF6731ADE0"
+        "MsmKey" = "8:_85037517B0033FBDDB704EB9F9B032E2"
+        "OwnerKey" = "8:_09BBD2E32BA7216934258B6C72644D09"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9374489220B7E5FD1825CA8E14CBE924"
-        "OwnerKey" = "8:_BAEF736F81BBB11FA585C29E5A5AC66F"
+        "MsmKey" = "8:_8656E54369194376BBCC543972C3DF64"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9374489220B7E5FD1825CA8E14CBE924"
-        "OwnerKey" = "8:_EDDBFB10542CBE69CD8BA1C5A9EDD433"
+        "MsmKey" = "8:_879B00F1304C380B69ED9A359C6D6BB3"
+        "OwnerKey" = "8:_73C84C865AF4498E8F2DF8C9D71D92D3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8CF6B5CB5944CCAA47119D39DF070581"
+        "OwnerKey" = "8:_70CBD97A186DC612D8944A511CE19B6A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8D7F455A574E428680F62AB178D0D214"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A67B1C4AAD485A549F7E09D6079293E4"
+        "OwnerKey" = "8:_4DC93ED0DF7B41248A24CFE0BF8A5A83"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A67B1C4AAD485A549F7E09D6079293E4"
+        "OwnerKey" = "8:_B28E4B341C6FBAECAA71B3BACA869950"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B28E4B341C6FBAECAA71B3BACA869950"
+        "OwnerKey" = "8:_6943CABB1E69DB1F403650839450F434"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B28E4B341C6FBAECAA71B3BACA869950"
+        "OwnerKey" = "8:_73C84C865AF4498E8F2DF8C9D71D92D3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B28E4B341C6FBAECAA71B3BACA869950"
+        "OwnerKey" = "8:_879B00F1304C380B69ED9A359C6D6BB3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B28E4B341C6FBAECAA71B3BACA869950"
+        "OwnerKey" = "8:_7504188C439F08037384632BB78E781E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B28E4B341C6FBAECAA71B3BACA869950"
+        "OwnerKey" = "8:_F38FC74F8626E0A2A3ABC68B005ACA6B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B28E4B341C6FBAECAA71B3BACA869950"
+        "OwnerKey" = "8:_E105F9A809D3E1C8DD0CAAA831D685DC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B28E4B341C6FBAECAA71B3BACA869950"
+        "OwnerKey" = "8:_FFF5A1A34930B5F309DF798D22E84BBE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -195,8 +411,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_BAEF736F81BBB11FA585C29E5A5AC66F"
-        "OwnerKey" = "8:_EDDBFB10542CBE69CD8BA1C5A9EDD433"
+        "MsmKey" = "8:_B86606C68B78A2FD50CB7CEA904A098D"
+        "OwnerKey" = "8:_3D3E8F0628FC3B38F9B0F105922270D2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -207,8 +423,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C5EAA3D831190C34081703B95F6B5C2D"
-        "OwnerKey" = "8:_73C84C865AF4498E8F2DF8C9D71D92D3"
+        "MsmKey" = "8:_E105F9A809D3E1C8DD0CAAA831D685DC"
+        "OwnerKey" = "8:_F38FC74F8626E0A2A3ABC68B005ACA6B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E105F9A809D3E1C8DD0CAAA831D685DC"
+        "OwnerKey" = "8:_7504188C439F08037384632BB78E781E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -219,146 +441,74 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_EAAC215AB21D429F58ECC514CD060BEA"
-        "OwnerKey" = "8:_8C7D4309AA0A24D9710B92DB5A2393CE"
+        "MsmKey" = "8:_EB1FA981C8A605262DBD11E9A48EBA37"
+        "OwnerKey" = "8:_70CBD97A186DC612D8944A511CE19B6A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_EAAC215AB21D429F58ECC514CD060BEA"
+        "MsmKey" = "8:_EE93AF80AA59BF6E9A73E9875B7A2B60"
+        "OwnerKey" = "8:_F38FC74F8626E0A2A3ABC68B005ACA6B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EEDF66DEE5C04E2E89708331B28EE23E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F38FC74F8626E0A2A3ABC68B005ACA6B"
+        "OwnerKey" = "8:_879B00F1304C380B69ED9A359C6D6BB3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F38FC74F8626E0A2A3ABC68B005ACA6B"
         "OwnerKey" = "8:_73C84C865AF4498E8F2DF8C9D71D92D3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_EAAC215AB21D429F58ECC514CD060BEA"
-        "OwnerKey" = "8:_C5EAA3D831190C34081703B95F6B5C2D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EAAC215AB21D429F58ECC514CD060BEA"
-        "OwnerKey" = "8:_7076844BDD74816A85B19CAF6731ADE0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EDDBFB10542CBE69CD8BA1C5A9EDD433"
-        "OwnerKey" = "8:_EAAC215AB21D429F58ECC514CD060BEA"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EDDBFB10542CBE69CD8BA1C5A9EDD433"
-        "OwnerKey" = "8:_73C84C865AF4498E8F2DF8C9D71D92D3"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EDDBFB10542CBE69CD8BA1C5A9EDD433"
-        "OwnerKey" = "8:_C5EAA3D831190C34081703B95F6B5C2D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EDDBFB10542CBE69CD8BA1C5A9EDD433"
-        "OwnerKey" = "8:_3380EE3A6073470C12265376F429BFC9"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EDDBFB10542CBE69CD8BA1C5A9EDD433"
-        "OwnerKey" = "8:_7076844BDD74816A85B19CAF6731ADE0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EDDBFB10542CBE69CD8BA1C5A9EDD433"
-        "OwnerKey" = "8:_631DF5B91C71CFD3FD88F45ECBE491C1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EDDBFB10542CBE69CD8BA1C5A9EDD433"
-        "OwnerKey" = "8:_8C7D4309AA0A24D9710B92DB5A2393CE"
+        "MsmKey" = "8:_F38FC74F8626E0A2A3ABC68B005ACA6B"
+        "OwnerKey" = "8:_7504188C439F08037384632BB78E781E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_FA711484361BF9146E47B5CA49FD1A84"
-        "OwnerKey" = "8:_EAAC215AB21D429F58ECC514CD060BEA"
+        "OwnerKey" = "8:_E105F9A809D3E1C8DD0CAAA831D685DC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_FA711484361BF9146E47B5CA49FD1A84"
-        "OwnerKey" = "8:_631DF5B91C71CFD3FD88F45ECBE491C1"
+        "OwnerKey" = "8:_00BCE17EE9703B0E2997362953B6FE40"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_67022D1A5DE447829075885A42456C80"
+        "MsmKey" = "8:_FA711484361BF9146E47B5CA49FD1A84"
+        "OwnerKey" = "8:_3D3E8F0628FC3B38F9B0F105922270D2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_73C84C865AF4498E8F2DF8C9D71D92D3"
+        "MsmKey" = "8:_FA711484361BF9146E47B5CA49FD1A84"
+        "OwnerKey" = "8:_6943CABB1E69DB1F403650839450F434"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C5EAA3D831190C34081703B95F6B5C2D"
+        "MsmKey" = "8:_FFF5A1A34930B5F309DF798D22E84BBE"
+        "OwnerKey" = "8:_879B00F1304C380B69ED9A359C6D6BB3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3380EE3A6073470C12265376F429BFC9"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7076844BDD74816A85B19CAF6731ADE0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_12F0BBF2D5E6E8AF6185060073B5FE89"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_617EB6AEEE1BC6FCC8B5B8F25D6FCDAA"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_631DF5B91C71CFD3FD88F45ECBE491C1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8C7D4309AA0A24D9710B92DB5A2393CE"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EAAC215AB21D429F58ECC514CD060BEA"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2B2B650B51194484E3FA369C623B35C6"
+        "MsmKey" = "8:_FFF5A1A34930B5F309DF798D22E84BBE"
+        "OwnerKey" = "8:_F38FC74F8626E0A2A3ABC68B005ACA6B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -370,25 +520,79 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EDDBFB10542CBE69CD8BA1C5A9EDD433"
+        "OwnerKey" = "8:_FFF5A1A34930B5F309DF798D22E84BBE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BAEF736F81BBB11FA585C29E5A5AC66F"
+        "OwnerKey" = "8:_F38FC74F8626E0A2A3ABC68B005ACA6B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9374489220B7E5FD1825CA8E14CBE924"
+        "OwnerKey" = "8:_EE93AF80AA59BF6E9A73E9875B7A2B60"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_74E418342B4FD4EA9C222BD9CEBACFE3"
+        "OwnerKey" = "8:_EB1FA981C8A605262DBD11E9A48EBA37"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_E105F9A809D3E1C8DD0CAAA831D685DC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_B86606C68B78A2FD50CB7CEA904A098D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_B28E4B341C6FBAECAA71B3BACA869950"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_A67B1C4AAD485A549F7E09D6079293E4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_8D7F455A574E428680F62AB178D0D214"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_8CF6B5CB5944CCAA47119D39DF070581"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_879B00F1304C380B69ED9A359C6D6BB3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_8656E54369194376BBCC543972C3DF64"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_85037517B0033FBDDB704EB9F9B032E2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -400,7 +604,103 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_060EF0AAB787FF07942B5C1931CDE8D6"
+        "OwnerKey" = "8:_7504188C439F08037384632BB78E781E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_74E418342B4FD4EA9C222BD9CEBACFE3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_73C84C865AF4498E8F2DF8C9D71D92D3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_70CBD97A186DC612D8944A511CE19B6A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_6943CABB1E69DB1F403650839450F434"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_67022D1A5DE447829075885A42456C80"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_617EB6AEEE1BC6FCC8B5B8F25D6FCDAA"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_4DC93ED0DF7B41248A24CFE0BF8A5A83"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_467C7ABD2515F219DD0CB36E64EBBABB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_4129010569B8C5DE387FF84F3E35A0B3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_3D3E8F0628FC3B38F9B0F105922270D2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_37678A51E5CBBE0675BCFD66659271F2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_2F4DD41E832E5F6ADAC1B0737DD40769"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_27F9CD8E671AA855A8D24F2AA566CC2B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_21796BECF79A9369B47EDA71FE19EB6F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_09BBD2E32BA7216934258B6C72644D09"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_00BCE17EE9703B0E2997362953B6FE40"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -411,7 +711,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\FilteringToolSetup_OpenSource.msi"
+        "OutputFilename" = "8:Debug\\FilteringToolSetup_v_5.3.0.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -430,10 +730,10 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.8"
                     {
-                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    "Name" = "8:Microsoft .NET Framework 4.8 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.8"
                     }
                 }
             }
@@ -475,6 +775,34 @@
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_0F5F9E8676FA42FBBF0392BCBEA551C1"
+            {
+            "Name" = "8:FilteringToolSetup_InstallerClass.dll"
+            "Condition" = "8:"
+            "Object" = "8:_8656E54369194376BBCC543972C3DF64"
+            "FileType" = "3:1"
+            "InstallAction" = "3:4"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_AF0B270F_CED5_4BCB_9DE5_0FCBEEB71A17"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:/TargetDir=\"[TARGETDIR]\\\""
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_5B25260F4A6444CFAA9D7E306FA0612B"
+            {
+            "Name" = "8:FilteringToolSetup_InstallerClass.dll"
+            "Condition" = "8:"
+            "Object" = "8:_8656E54369194376BBCC543972C3DF64"
+            "FileType" = "3:1"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_50D0B9DB_6AC3_4E66_9E79_98B4F9755FBD"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:/TargetDir=\"[TARGETDIR]\\\""
+            }
         }
         "DefaultFeature"
         {
@@ -490,7 +818,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.5"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.8"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=671728"
                 }
@@ -498,23 +826,23 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_060EF0AAB787FF07942B5C1931CDE8D6"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_00BCE17EE9703B0E2997362953B6FE40"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Datatype, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Plugins, Version=2016.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_060EF0AAB787FF07942B5C1931CDE8D6"
+                    "_00BCE17EE9703B0E2997362953B6FE40"
                     {
-                    "Name" = "8:Tekla.Structures.Datatype.dll"
+                    "Name" = "8:Tekla.Structures.Plugins.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Tekla.Structures.Datatype.dll"
+            "SourcePath" = "8:Tekla.Structures.Plugins.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_1073626A67744A1380DEC47986BD2F1C"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -525,7 +853,38 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_09BBD2E32BA7216934258B6C72644D09"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Tekla.Common.Geometry.Shapes, Version=4.5.0.0, Culture=neutral, PublicKeyToken=93c0f7e4f1ca9619, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_09BBD2E32BA7216934258B6C72644D09"
+                    {
+                    "Name" = "8:Tekla.Common.Geometry.Shapes.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tekla.Common.Geometry.Shapes.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -549,45 +908,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_12F0BBF2D5E6E8AF6185060073B5FE89"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_21796BECF79A9369B47EDA71FE19EB6F"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:Tekla.Technology.MsgLib, Version=2.1.0.14283, Culture=neutral, PublicKeyToken=a70cba4ef557ee03, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Tekla.Technology.Serialization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=a70cba4ef557ee03, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_12F0BBF2D5E6E8AF6185060073B5FE89"
-                    {
-                    "Name" = "8:Tekla.Technology.MsgLib.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Tekla.Technology.MsgLib.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_1073626A67744A1380DEC47986BD2F1C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2B2B650B51194484E3FA369C623B35C6"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:Tekla.Technology.Serialization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a70cba4ef557ee03, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_2B2B650B51194484E3FA369C623B35C6"
+                    "_21796BECF79A9369B47EDA71FE19EB6F"
                     {
                     "Name" = "8:Tekla.Technology.Serialization.dll"
                     "Attributes" = "3:512"
@@ -607,24 +935,24 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3380EE3A6073470C12265376F429BFC9"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_27F9CD8E671AA855A8D24F2AA566CC2B"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Drawing, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Datatype, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_3380EE3A6073470C12265376F429BFC9"
+                    "_27F9CD8E671AA855A8D24F2AA566CC2B"
                     {
-                    "Name" = "8:Tekla.Structures.Drawing.dll"
+                    "Name" = "8:Tekla.Structures.Datatype.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Tekla.Structures.Drawing.dll"
+            "SourcePath" = "8:Tekla.Structures.Datatype.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1073626A67744A1380DEC47986BD2F1C"
@@ -638,7 +966,213 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2F4DD41E832E5F6ADAC1B0737DD40769"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Datatype, Version=2016.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_2F4DD41E832E5F6ADAC1B0737DD40769"
+                    {
+                    "Name" = "8:Tekla.Structures.Datatype.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tekla.Structures.Datatype.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_37678A51E5CBBE0675BCFD66659271F2"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Tekla.Common.Geometry, Version=4.5.3.0, Culture=neutral, PublicKeyToken=93c0f7e4f1ca9619, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_37678A51E5CBBE0675BCFD66659271F2"
+                    {
+                    "Name" = "8:Tekla.Common.Geometry.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tekla.Common.Geometry.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3D3E8F0628FC3B38F9B0F105922270D2"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Model, Version=2016.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_3D3E8F0628FC3B38F9B0F105922270D2"
+                    {
+                    "Name" = "8:Tekla.Structures.Model.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tekla.Structures.Model.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4129010569B8C5DE387FF84F3E35A0B3"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Akit5, Version=5.7.0.0, Culture=neutral, PublicKeyToken=a70cba4ef557ee03, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_4129010569B8C5DE387FF84F3E35A0B3"
+                    {
+                    "Name" = "8:Akit5.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Akit5.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_467C7ABD2515F219DD0CB36E64EBBABB"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Tekla.Structures, Version=2016.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_467C7ABD2515F219DD0CB36E64EBBABB"
+                    {
+                    "Name" = "8:Tekla.Structures.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tekla.Structures.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_487EAE9C9A224537B13C50878574E8FA"
+            {
+            "SourcePath" = "8:..\\filteringtool\\_assets\\DDBIMFilteringTool_ComponentCatalog.ac.xml"
+            "TargetName" = "8:DDBIMFilteringTool_ComponentCatalog.ac.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
             "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4DC93ED0DF7B41248A24CFE0BF8A5A83"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Tekla.Common.Geometry.Shapes, Version=4.6.2.0, Culture=neutral, PublicKeyToken=93c0f7e4f1ca9619, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_4DC93ED0DF7B41248A24CFE0BF8A5A83"
+                    {
+                    "Name" = "8:Tekla.Common.Geometry.Shapes.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tekla.Common.Geometry.Shapes.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_1073626A67744A1380DEC47986BD2F1C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -669,38 +1203,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_631DF5B91C71CFD3FD88F45ECBE491C1"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Plugins, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_631DF5B91C71CFD3FD88F45ECBE491C1"
-                    {
-                    "Name" = "8:Tekla.Structures.Plugins.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Tekla.Structures.Plugins.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_1073626A67744A1380DEC47986BD2F1C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -708,7 +1211,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:FilteringToolStarter, Version=5.1.7233.25945, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:FilteringToolStarter, Version=5.3.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_67022D1A5DE447829075885A42456C80"
@@ -735,20 +1238,20 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7076844BDD74816A85B19CAF6731ADE0"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6943CABB1E69DB1F403650839450F434"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Dialog, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Model, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_7076844BDD74816A85B19CAF6731ADE0"
+                    "_6943CABB1E69DB1F403650839450F434"
                     {
-                    "Name" = "8:Tekla.Structures.Dialog.dll"
+                    "Name" = "8:Tekla.Structures.Model.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Tekla.Structures.Dialog.dll"
+            "SourcePath" = "8:Tekla.Structures.Model.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1073626A67744A1380DEC47986BD2F1C"
@@ -762,7 +1265,38 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_70CBD97A186DC612D8944A511CE19B6A"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Dialog, Version=2016.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_70CBD97A186DC612D8944A511CE19B6A"
+                    {
+                    "Name" = "8:Tekla.Structures.Dialog.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tekla.Structures.Dialog.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -770,7 +1304,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:FilteringTool, Version=5.1.7233.25945, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:FilteringTool, Version=5.3.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_73C84C865AF4498E8F2DF8C9D71D92D3"
@@ -824,7 +1358,38 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7504188C439F08037384632BB78E781E"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Drawing, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_7504188C439F08037384632BB78E781E"
+                    {
+                    "Name" = "8:Tekla.Structures.Drawing.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tekla.Structures.Drawing.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_1073626A67744A1380DEC47986BD2F1C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -855,24 +1420,86 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8C7D4309AA0A24D9710B92DB5A2393CE"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_85037517B0033FBDDB704EB9F9B032E2"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Catalogs, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Tekla.Common.Geometry, Version=4.5.1.0, Culture=neutral, PublicKeyToken=93c0f7e4f1ca9619, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_8C7D4309AA0A24D9710B92DB5A2393CE"
+                    "_85037517B0033FBDDB704EB9F9B032E2"
                     {
-                    "Name" = "8:Tekla.Structures.Catalogs.dll"
+                    "Name" = "8:Tekla.Common.Geometry.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Tekla.Structures.Catalogs.dll"
+            "SourcePath" = "8:Tekla.Common.Geometry.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8656E54369194376BBCC543972C3DF64"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:FilteringToolSetup_InstallerClass, Version=5.3.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_8656E54369194376BBCC543972C3DF64"
+                    {
+                    "Name" = "8:FilteringToolSetup_InstallerClass.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\FilteringToolSetup_InstallerClass\\bin\\Debug\\FilteringToolSetup_InstallerClass.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_879B00F1304C380B69ED9A359C6D6BB3"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Tekla.Application.Library, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_879B00F1304C380B69ED9A359C6D6BB3"
+                    {
+                    "Name" = "8:Tekla.Application.Library.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tekla.Application.Library.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1073626A67744A1380DEC47986BD2F1C"
@@ -886,18 +1513,80 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9374489220B7E5FD1825CA8E14CBE924"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8CF6B5CB5944CCAA47119D39DF070581"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:Tekla.Common.Geometry, Version=4.5.3.0, Culture=neutral, PublicKeyToken=93c0f7e4f1ca9619, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Catalogs, Version=2016.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_9374489220B7E5FD1825CA8E14CBE924"
+                    "_8CF6B5CB5944CCAA47119D39DF070581"
+                    {
+                    "Name" = "8:Tekla.Structures.Catalogs.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tekla.Structures.Catalogs.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8D7F455A574E428680F62AB178D0D214"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:FilteringToolPlugin, Version=5.3.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_8D7F455A574E428680F62AB178D0D214"
+                    {
+                    "Name" = "8:FilteringToolPlugin.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\FilteringToolPlugin\\bin\\Debug\\FilteringToolPlugin.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A67B1C4AAD485A549F7E09D6079293E4"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Tekla.Common.Geometry, Version=4.6.0.0, Culture=neutral, PublicKeyToken=93c0f7e4f1ca9619, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_A67B1C4AAD485A549F7E09D6079293E4"
                     {
                     "Name" = "8:Tekla.Common.Geometry.dll"
                     "Attributes" = "3:512"
@@ -917,7 +1606,38 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B28E4B341C6FBAECAA71B3BACA869950"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Tekla.Structures, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_B28E4B341C6FBAECAA71B3BACA869950"
+                    {
+                    "Name" = "8:Tekla.Structures.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tekla.Structures.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_1073626A67744A1380DEC47986BD2F1C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -941,23 +1661,23 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BAEF736F81BBB11FA585C29E5A5AC66F"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B86606C68B78A2FD50CB7CEA904A098D"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:Tekla.Common.Geometry.Shapes, Version=4.5.0.0, Culture=neutral, PublicKeyToken=93c0f7e4f1ca9619, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Tekla.Technology.Serialization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a70cba4ef557ee03, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_BAEF736F81BBB11FA585C29E5A5AC66F"
+                    "_B86606C68B78A2FD50CB7CEA904A098D"
                     {
-                    "Name" = "8:Tekla.Common.Geometry.Shapes.dll"
+                    "Name" = "8:Tekla.Technology.Serialization.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Tekla.Common.Geometry.Shapes.dll"
+            "SourcePath" = "8:Tekla.Technology.Serialization.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_1073626A67744A1380DEC47986BD2F1C"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -968,7 +1688,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -992,20 +1712,20 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C5EAA3D831190C34081703B95F6B5C2D"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E105F9A809D3E1C8DD0CAAA831D685DC"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:Tekla.Application.Library, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Plugins, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_C5EAA3D831190C34081703B95F6B5C2D"
+                    "_E105F9A809D3E1C8DD0CAAA831D685DC"
                     {
-                    "Name" = "8:Tekla.Application.Library.dll"
+                    "Name" = "8:Tekla.Structures.Plugins.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Tekla.Application.Library.dll"
+            "SourcePath" = "8:Tekla.Structures.Plugins.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1073626A67744A1380DEC47986BD2F1C"
@@ -1019,7 +1739,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -1043,23 +1763,23 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EAAC215AB21D429F58ECC514CD060BEA"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EB1FA981C8A605262DBD11E9A48EBA37"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Model, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Tekla.Technology.MsgLib, Version=2.1.0.14283, Culture=neutral, PublicKeyToken=a70cba4ef557ee03, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_EAAC215AB21D429F58ECC514CD060BEA"
+                    "_EB1FA981C8A605262DBD11E9A48EBA37"
                     {
-                    "Name" = "8:Tekla.Structures.Model.dll"
+                    "Name" = "8:Tekla.Technology.MsgLib.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Tekla.Structures.Model.dll"
+            "SourcePath" = "8:Tekla.Technology.MsgLib.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_1073626A67744A1380DEC47986BD2F1C"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1070,24 +1790,24 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EDDBFB10542CBE69CD8BA1C5A9EDD433"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EE93AF80AA59BF6E9A73E9875B7A2B60"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:Tekla.Structures, Version=2018.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Tekla.Technology.MsgLib, Version=2.1.0.18312, Culture=neutral, PublicKeyToken=a70cba4ef557ee03, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_EDDBFB10542CBE69CD8BA1C5A9EDD433"
+                    "_EE93AF80AA59BF6E9A73E9875B7A2B60"
                     {
-                    "Name" = "8:Tekla.Structures.dll"
+                    "Name" = "8:Tekla.Technology.MsgLib.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Tekla.Structures.dll"
+            "SourcePath" = "8:Tekla.Technology.MsgLib.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1073626A67744A1380DEC47986BD2F1C"
@@ -1101,7 +1821,58 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EEDF66DEE5C04E2E89708331B28EE23E"
+            {
+            "SourcePath" = "8:..\\filteringtool\\_assets\\et_element_Filtering Tool.bmp"
+            "TargetName" = "8:et_element_Filtering Tool.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_78E769FBB23E439EAF201976A5D798BB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
             "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F38FC74F8626E0A2A3ABC68B005ACA6B"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Dialog, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_F38FC74F8626E0A2A3ABC68B005ACA6B"
+                    {
+                    "Name" = "8:Tekla.Structures.Dialog.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tekla.Structures.Dialog.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_1073626A67744A1380DEC47986BD2F1C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -1132,7 +1903,38 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FFF5A1A34930B5F309DF798D22E84BBE"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Tekla.Structures.Catalogs, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_FFF5A1A34930B5F309DF798D22E84BBE"
+                    {
+                    "Name" = "8:Tekla.Structures.Catalogs.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tekla.Structures.Catalogs.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_1073626A67744A1380DEC47986BD2F1C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -1185,17 +1987,6 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_7983287362BA4D2DB0FA00EF25DF4764"
-                    {
-                    "Name" = "8:Filtering Tool"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_6EBA139819784B1C834A690A2682592F"
-                        "Folders"
-                        {
-                        }
-                    }
                 }
             }
         }
@@ -1213,17 +2004,17 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Filtering Tool Open Source"
-        "ProductCode" = "8:{9744DDD2-3F33-40D0-B028-6B7A3A0FE079}"
-        "PackageCode" = "8:{EE231D7F-EE56-4042-B3ED-FEA364561167}"
-        "UpgradeCode" = "8:{8CB488D8-D3AF-4107-974A-4AEE550416ED}"
+        "ProductName" = "8:Filtering Tool Plugin for Tekla"
+        "ProductCode" = "8:{FB00444E-47D6-44B8-A6D1-97C8C4F2767B}"
+        "PackageCode" = "8:{FF6FF6C2-3C71-45B3-B89D-646DEFAA47F5}"
+        "UpgradeCode" = "8:{65A9D507-09F3-4DBE-8AA2-CD2EC5076977}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:5.1.0"
-        "Manufacturer" = "8:Tekla DD Tools"
+        "ProductVersion" = "8:5.3.0"
+        "Manufacturer" = "8:DDBIM Dawid Dyrcz"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:Filtering Tool Setup"
@@ -1379,48 +2170,6 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_32031208D57041BC8CBF435EA69C401F"
-            {
-            "Name" = "8:License.txt"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_B488CC7FD3EB488BBAE395F6B552279C"
-            "Folder" = "8:_7983287362BA4D2DB0FA00EF25DF4764"
-            "WorkingFolder" = "8:_78E769FBB23E439EAF201976A5D798BB"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_453DE17A5F6944469A36F590B50AFC55"
-            {
-            "Name" = "8:Filtering Tool"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_67022D1A5DE447829075885A42456C80"
-            "Folder" = "8:_9B0724261F1F42308124165EA03061BF"
-            "WorkingFolder" = "8:_78E769FBB23E439EAF201976A5D798BB"
-            "Icon" = "8:_0F83D7518BCB4B508495D144B899E8D9"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7B08A1B001FA4EE89D96E914C8ABE4F9"
-            {
-            "Name" = "8:Filtering Tool"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_67022D1A5DE447829075885A42456C80"
-            "Folder" = "8:_7983287362BA4D2DB0FA00EF25DF4764"
-            "WorkingFolder" = "8:_78E769FBB23E439EAF201976A5D798BB"
-            "Icon" = "8:_0F83D7518BCB4B508495D144B899E8D9"
-            "Feature" = "8:"
-            }
         }
         "UserInterface"
         {

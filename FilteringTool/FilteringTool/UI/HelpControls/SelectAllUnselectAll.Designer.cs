@@ -63,7 +63,7 @@ namespace FilteringTool.UI.HelpControls
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.Location = new System.Drawing.Point(4, 40);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(230, 21);
+            this.label2.Size = new System.Drawing.Size(228, 21);
             this.label2.TabIndex = 1;
             this.label2.Text = "To select all phases you have to:";
             // 
@@ -143,14 +143,13 @@ namespace FilteringTool.UI.HelpControls
             this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label7.Location = new System.Drawing.Point(427, 160);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(235, 21);
+            this.label7.Size = new System.Drawing.Size(233, 21);
             this.label7.TabIndex = 9;
             this.label7.Text = "To select all phases you can also:";
             // 
             // SelectAllUnselectAll
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox3);

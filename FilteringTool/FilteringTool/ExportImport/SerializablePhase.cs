@@ -23,13 +23,16 @@ namespace FilteringTool.ExportImport
 
         public int CompareTo(object obj)
         {
-            if (obj == null) return 1;
+            if (obj is null) 
+                return 1;
             else
             {
                 SerializablePhase phase = obj as SerializablePhase;
 
-                if (this.Number <= phase.Number) return -1;
-                else return 1;
+                if (this.Number <= phase.Number) 
+                    return -1;
+                else 
+                    return 1;
             }
         }
 

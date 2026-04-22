@@ -39,13 +39,16 @@ namespace FilteringTool
 
         public int CompareTo(object obj)
         {
-            if (obj == null) return 1;
+            if (obj is null) 
+                return 1;
             else
             {
                 TeklaPhase phase = obj as TeklaPhase;
 
-                if (this.GetNumber() <= phase.GetNumber()) return -1;
-                else return 1;
+                if (this.GetNumber() <= phase.GetNumber()) 
+                    return -1;
+                else 
+                    return 1;
             }
         }
 

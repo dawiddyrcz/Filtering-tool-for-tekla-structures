@@ -69,7 +69,7 @@ namespace FilteringTool.UI.HelpControls
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label3.Location = new System.Drawing.Point(4, 259);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(504, 21);
+            this.label3.Size = new System.Drawing.Size(503, 21);
             this.label3.TabIndex = 2;
             this.label3.Text = "You can change content of the object info in options (Menu > Options). ";
             // 
@@ -101,14 +101,13 @@ namespace FilteringTool.UI.HelpControls
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label4.Location = new System.Drawing.Point(4, 291);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(503, 21);
+            this.label4.Size = new System.Drawing.Size(502, 21);
             this.label4.TabIndex = 5;
             this.label4.Text = "You can add every parameter avaiable in organizer (or template editor).";
             // 
             // ObjectInfo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);

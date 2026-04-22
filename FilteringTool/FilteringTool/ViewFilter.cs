@@ -85,7 +85,8 @@ namespace FilteringTool
                 int count = PhasesToFilter.Count;
 
                 int multiple = 1;
-                if (Settings.AddComponentFilter) multiple = 2;
+                if (Settings.AddComponentFilter) multiple++;
+                if (Settings.AddRebarFilter) multiple++;
 
                 int weldFiltersCount = 0;
                 if (Settings.AddWeldMinusOneFilter) weldFiltersCount = 2;
@@ -145,6 +146,47 @@ namespace FilteringTool
                     file.WriteLine("    }");
                     file.WriteLine("");
                     i++;
+                }
+
+                if (Settings.AddRebarFilter)
+                {
+                    i = 1;
+                    foreach (int phaseNumber in PhasesToFilter)
+                    {
+                        file.WriteLine("    SECTION_OBJECT_GROUP");
+                        file.WriteLine("    {");
+
+                        if (i == 1)
+                            file.WriteLine("\t1");
+                        else
+                            file.WriteLine("\t0");
+
+                        file.WriteLine("\t1");
+
+                        file.WriteLine("\tCoRebar.Group");
+
+                        file.WriteLine("\tproPHASE");
+                        file.WriteLine("\talbl_Phase");
+                        file.WriteLine("\t==");
+                        file.WriteLine("\talbl_Equals");
+
+                        file.WriteLine("\t" + phaseNumber);
+
+                        if (i == count)
+                        {
+                            file.WriteLine("\t1");
+                            file.WriteLine("\t&&");
+                        }
+                        else
+                        {
+                            file.WriteLine("\t0");
+                            file.WriteLine("\t||");
+                        }
+
+                        file.WriteLine("    }");
+                        file.WriteLine("");
+                        i++;
+                    }
                 }
 
                 if (Settings.AddComponentFilter)

@@ -3,6 +3,7 @@
 
 using FilteringTool.ExportImport;
 using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace FilteringTool.UI
@@ -19,6 +20,11 @@ namespace FilteringTool.UI
         {
             if (helpForm.IsDisposed) helpForm = new HelpForm();
             helpForm.Show();
+        }
+
+        public override Size GetPreferredSize(Size proposedSize)
+        {
+            return menuStrip1.GetPreferredSize(proposedSize);
         }
 
         private void ImportPhaseListToolStripMenuItem_Click(object sender, EventArgs e)

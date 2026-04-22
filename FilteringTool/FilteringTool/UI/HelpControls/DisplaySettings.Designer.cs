@@ -63,7 +63,7 @@ namespace FilteringTool.UI.HelpControls
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.Location = new System.Drawing.Point(4, 40);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(280, 21);
+            this.label2.Size = new System.Drawing.Size(278, 21);
             this.label2.TabIndex = 1;
             this.label2.Text = "To change display settings you have to:";
             // 
@@ -149,8 +149,7 @@ namespace FilteringTool.UI.HelpControls
             // 
             // DisplaySettings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);

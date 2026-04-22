@@ -30,7 +30,7 @@ namespace FilteringTool.UI
 
             Assembly assembly = Assembly.GetExecutingAssembly();
             FileVersionInfo fileVersionInfo = FileVersionInfo.GetVersionInfo(assembly.Location);
-            this.Text = this.Text + " " + fileVersionInfo.FileMajorPart + "." + fileVersionInfo.FileMinorPart;
+            this.Text = $"{this.Text} {fileVersionInfo.FileMajorPart}.{fileVersionInfo.FileMinorPart} - {ModelSettings.TeklaVersionBeautifullInfo} - www.ddbim.com";
 
             view_checkedListBox.SetCurrentPhaseClicked += new Action(SetCurrentPhase);
             view_checkedListBox.MoveToPhaseClicked += new Action(MoveToPhase);
@@ -57,7 +57,20 @@ namespace FilteringTool.UI
             RefreshPhases();
             viewAttribute_comboBox.Text = LAST_FILTER_NAME;
             ViewAttributeLoad_buttonClick(new object(), new EventArgs());
+            this.ResizeEnd += FilteringToolMainForm_ResizeEnd;
+
+            this.Shown += FilteringToolMainForm_Shown1;
         }
+
+
+        private Size ButtonLayoutPanelPrefferedSize;
+        private Size TopLayoutPanelPrefferedSize;
+        private void FilteringToolMainForm_Shown1(object sender, EventArgs e)
+        {
+            ButtonLayoutPanelPrefferedSize = button_tableLayoutPanel.PreferredSize;
+            TopLayoutPanelPrefferedSize = top_tableLayoutPanel.PreferredSize;
+        }
+
 
         private void Add_buttonClick(object sender, EventArgs e) => AddPhase();
 
@@ -218,49 +231,38 @@ namespace FilteringTool.UI
                     hideShow_button.Text = ">";
                 }
                 RepairHidingTeklaWindows();
+
+                FilteringToolMainForm_ResizeEnd(this, EventArgs.Empty);
             }
             catch (Exception) { }
         }
 
-        private bool minWindow = false;
-        private void Panel3_Resize(object sender, EventArgs e)
+        private void FilteringToolMainForm_ResizeEnd(object sender, EventArgs e)
         {
-            if (panel3.Size.Width < 150 & !isFormHidded & this.WindowState != FormWindowState.Minimized)
+            if (this.WindowState == FormWindowState.Minimized)
+                return;
+
+            bool buttonPanelVisible = this.Width > 300;
+            button_tableLayoutPanel.Visible = buttonPanelVisible;
+
+            if (button_tableLayoutPanel.Visible)
             {
-                panel4.Hide();
-                select_checkedListBox.Hide();
-                minWindow = true;
-                selectAllSelect_checkBox.Hide();
-                selectNoneSelect_checkBox.Hide();
+                int minHeight = ButtonLayoutPanelPrefferedSize.Height;
+
+                bool buttonsVisible = button_tableLayoutPanel.Height > minHeight;
+                setPhase_button.Visible = buttonsVisible;
+                changePhase_button.Visible = buttonsVisible;
+                add_button.Visible = buttonsVisible;
+                select_button.Visible = buttonsVisible;
+                redraw_button.Visible = buttonsVisible;
+                refresh_button.Visible = buttonsVisible;
+                nearestPlane_button.Visible = buttonsVisible;
             }
-            if (panel3.Size.Width >= 550 & minWindow)
-            {
-                panel4.Show();
-                select_checkedListBox.Show();
-                minWindow = false;
-                selectAllSelect_checkBox.Show();
-                selectNoneSelect_checkBox.Show();
-            }
-            if (panel3.Size.Height < 425 & this.WindowState != FormWindowState.Minimized)
-            {
-                buttonPanel1.Hide();
-            }
-            if (panel3.Size.Height >= 425)
-            {
-                buttonPanel1.Show();
-            }
-            if (panel3.Size.Height < 350 & this.WindowState != FormWindowState.Minimized)
-            {
-                buttonPanel2.Hide();
-            }
-            if (panel3.Size.Height >= 350)
-            {
-                buttonPanel2.Show();
-            }
-            if (this.WindowState != FormWindowState.Minimized)
-            {
-                RepairHidingTeklaWindows();
-            }
+
+            bool topButtonsVisible = buttonPanelVisible;
+            mainMenuControl2.Visible = topButtonsVisible;
+            viewAttributeSave_button.Visible = topButtonsVisible;
+            viewAttributeDelete_button.Visible = topButtonsVisible;
         }
 
         private void Select_checkedListBox_MouseMove(object sender, MouseEventArgs e)
@@ -302,6 +304,43 @@ namespace FilteringTool.UI
             TryToRepairHidingTeklaWindowsAfterSecond();
         }
 
+        private DateTime lastRefreshOnMouseMove = new DateTime();
+
+        private void ViewMouseMove()
+        {
+            try
+            {
+                int index = this.view_checkedListBox.TopIndex;
+                this.select_checkedListBox.TopIndex = index;
+
+                if (DateTime.Now.AddSeconds(-10) > lastRefreshOnMouseMove)
+                {
+                    this.Refresh();
+                    lastRefreshOnMouseMove = DateTime.Now;
+                }
+            }
+            catch (Exception) { }
+
+        }
+
+        private void NewVersion_linkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            if (sender is LinkLabel linkLabel)
+            {
+                if (linkLabel.Tag != null && linkLabel.Tag is string linkTxt)
+                {
+                    if (string.IsNullOrWhiteSpace(linkTxt))
+                        return;
+
+                    try
+                    {
+                        var linkForm = new LinkForm(linkTxt);
+                        linkForm.ShowDialog();
+                    }
+                    catch { } 
+                }
+            }
+        }
     }
 
 }

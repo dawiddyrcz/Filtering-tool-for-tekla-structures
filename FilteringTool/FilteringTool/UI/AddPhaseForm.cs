@@ -35,5 +35,16 @@ namespace FilteringTool.UI
             catch (System.FormatException) { MessageBox.Show("Incorrect phase number", "Error"); }
             catch (Exception) { }
         }
+
+        protected override void OnShown(EventArgs e)
+        {
+            base.OnShown(e);
+
+            if (tableLayoutPanel1.Height < tableLayoutPanel1.PreferredSize.Height)
+            {
+                var diference = Math.Abs(tableLayoutPanel1.Height - tableLayoutPanel1.PreferredSize.Height);
+                this.Height += diference;
+            }
+        }
     }
 }

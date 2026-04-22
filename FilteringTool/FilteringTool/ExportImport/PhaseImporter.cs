@@ -69,7 +69,7 @@ namespace FilteringTool.ExportImport
             foreach (var serializablePhases in serializablePhaseCollection.List)
             {
                 var modelPhase = GetPhaseFromModel(serializablePhases.Number);
-                if (modelPhase == null)
+                if (modelPhase is null)
                 {
                     modelPhase = new Phase
                     {
@@ -94,8 +94,10 @@ namespace FilteringTool.ExportImport
         List<Phase> phasesInModel;
         private Phase GetPhaseFromModel(int number)
         {
-            if (phasesInModel == null) phasesInModel = GetPhaseListFromModel();
-            int findedIndex = phasesInModel.FindIndex(p => p.PhaseNumber.Equals(number));
+            if (phasesInModel is null) 
+                phasesInModel = GetPhaseListFromModel();
+            int findedIndex = 
+                phasesInModel.FindIndex(p => p.PhaseNumber.Equals(number));
 
             if (findedIndex >= 0)
                 return phasesInModel[findedIndex];

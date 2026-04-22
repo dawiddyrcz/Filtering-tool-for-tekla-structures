@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TEP Version="1.0">
+
+	<Product Id="DDBIMFilteringTool" UpgradeCode="AA9DC178-2CA0-43FB-B3B9-6246BAF471F0" Version="1.0" Language="1033"
+		Name="DDBIM Filtering Tool" Manufacturer="DDBIM Dawid Dyrcz"  Description= "Legendary program for filtering Tekla Structures views"
+		IconPath="%TEPDEFINITIONFILEFOLDER%\Icon.png" Type="Extension">
+		<TeklaVersions>
+			<TeklaVersion Name="2099.1"/>
+			<MinTeklaVersion Name="2025.0"/>
+			<MaxTeklaVersion Name="2099.1"/>
+		</TeklaVersions>
+	</Product>
+
+	<SourcePathVariables>
+		<SourcePathVariable Id="TepOutputFolder" Value="%TEPDEFINITIONFILEFOLDER%\output" Comment="This provides the location where the package builder is to save the package."/>
+		<SourcePathVariable Id="BinariesFolder" Value="%TEPDEFINITIONFILEFOLDER%\..\bin\Debug"/>
+		<SourcePathVariable Id="BinariesFolder2" Value="%TEPDEFINITIONFILEFOLDER%\..\..\FilteringToolPlugin\bin\Debug"/>
+		<SourcePathVariable Id="StandardFileFolder" Value="%TEPDEFINITIONFILEFOLDER%"/>
+		<SourcePathVariable Id="MessagesFolder" Value="%TEPDEFINITIONFILEFOLDER%"/>
+		<SourcePathVariable Id="BitmapsFolder" Value="%TEPDEFINITIONFILEFOLDER%"/>
+	</SourcePathVariables>
+
+	<TargetPathVariables>
+		<PathVariable Id="ModelPluginsDirectory" Value="%ENVDIR%\extensions\plugins\tekla\model\"/>
+		<PathVariable Id="ModelApplicationsDirectory" Value="%ENVDIR%\extensions\applications\tekla\model\"/>
+		<PathVariable Id="ExtensionsDir" Value="%commonEnvFolder%\extensions\"/>
+		<PathVariable Id="BinariesTargetDirectory" Value="%ExtensionsDir%\DDBIMFilteringTool\"/>
+		<PathVariable Id="BitmapsDirectory" Value="%ENVDIR%\..\bitmaps\"/>
+		<PathVariable Id="AttributeFileDirectory" Value="%commonEnvFolder%\system\"/>
+		<PathVariable Id="InpDirectory" Value="%commonEnvFolder%\inp\"/>
+		<PathVariable Id="CommonMacroDirectory" Value="%commonEnvFolder%\macros\modeling\"/>
+	</TargetPathVariables>
+
+	<Component Id="TheExtensionComponent" Guid="9E49ED22-9C7C-4B77-A4A9-2362329852F0">
+
+		<!--Binaries-->
+		<File Id="1" Source="%BinariesFolder%\FilteringTool.exe" Target="%BinariesTargetDirectory%"/>
+		<File Id="2" Source="%BinariesFolder2%\FilteringToolPlugin.dll" Target="%BinariesTargetDirectory%"/>
+		<File Id="3" Source="%BinariesFolder%\Newtonsoft.Json.dll" Target="%BinariesTargetDirectory%"/>
+
+		<!--Text files-->
+		<File Id="4" Source="%BinariesFolder%\License.rtf" Target="%BinariesTargetDirectory%"/>
+		<File Id="5" Source="%BinariesFolder%\License.txt" Target="%BinariesTargetDirectory%"/>
+		<File Id="6" Source="%BinariesFolder%\ReleaseNote.txt" Target="%BinariesTargetDirectory%"/>
+
+		<!--Bitmaps-->
+		<File Id="7" Source="%BitmapsFolder%\et_element_Filtering Tool.bmp" Target="%BitmapsDirectory%"/>
+
+		<!--Component catalog group-->
+		<File Id="8" Source="%StandardFileFolder%\DDBIMFilteringTool_ComponentCatalog.ac.xml" Target="%AttributeFileDirectory%"/>
+
+	</Component>
+
+	<Feature Id="TheExtensionFeature" Title="ExtensionFeature">
+		<ComponentRef ReferenceId="TheExtensionComponent" />
+	</Feature>
+
+</TEP>

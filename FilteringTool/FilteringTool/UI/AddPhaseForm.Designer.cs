@@ -39,31 +39,39 @@ namespace FilteringTool.UI
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddPhaseForm));
             this.phaseNumber_textBox = new System.Windows.Forms.TextBox();
             this.phaseName_textBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.addPhase_button = new System.Windows.Forms.Button();
             this.cancel_button = new System.Windows.Forms.Button();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // phaseNumber_textBox
             // 
-            this.phaseNumber_textBox.Location = new System.Drawing.Point(0, 22);
+            this.phaseNumber_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.SetColumnSpan(this.phaseNumber_textBox, 3);
+            this.phaseNumber_textBox.Location = new System.Drawing.Point(3, 24);
             this.phaseNumber_textBox.Name = "phaseNumber_textBox";
-            this.phaseNumber_textBox.Size = new System.Drawing.Size(294, 20);
+            this.phaseNumber_textBox.Size = new System.Drawing.Size(298, 22);
             this.phaseNumber_textBox.TabIndex = 0;
             // 
             // phaseName_textBox
             // 
-            this.phaseName_textBox.Location = new System.Drawing.Point(0, 63);
+            this.phaseName_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.SetColumnSpan(this.phaseName_textBox, 3);
+            this.phaseName_textBox.Location = new System.Drawing.Point(3, 73);
             this.phaseName_textBox.Name = "phaseName_textBox";
-            this.phaseName_textBox.Size = new System.Drawing.Size(294, 20);
+            this.phaseName_textBox.Size = new System.Drawing.Size(298, 22);
             this.phaseName_textBox.TabIndex = 1;
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(8, 4);
+            this.label1.Location = new System.Drawing.Point(3, 3);
+            this.label1.Margin = new System.Windows.Forms.Padding(3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(105, 15);
             this.label1.TabIndex = 2;
@@ -71,7 +79,8 @@ namespace FilteringTool.UI
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(8, 45);
+            this.label2.Location = new System.Drawing.Point(3, 52);
+            this.label2.Margin = new System.Windows.Forms.Padding(3);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 15);
             this.label2.TabIndex = 3;
@@ -79,11 +88,16 @@ namespace FilteringTool.UI
             // 
             // addPhase_button
             // 
+            this.addPhase_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.addPhase_button.AutoSize = true;
+            this.addPhase_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.addPhase_button.BackColor = System.Drawing.SystemColors.Window;
-            this.addPhase_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.addPhase_button.Location = new System.Drawing.Point(0, 89);
+            this.addPhase_button.Location = new System.Drawing.Point(1, 124);
+            this.addPhase_button.Margin = new System.Windows.Forms.Padding(1);
             this.addPhase_button.Name = "addPhase_button";
-            this.addPhase_button.Size = new System.Drawing.Size(109, 23);
+            this.addPhase_button.Size = new System.Drawing.Size(135, 26);
             this.addPhase_button.TabIndex = 4;
             this.addPhase_button.Text = "Add";
             this.addPhase_button.UseVisualStyleBackColor = false;
@@ -91,41 +105,68 @@ namespace FilteringTool.UI
             // 
             // cancel_button
             // 
+            this.cancel_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cancel_button.AutoSize = true;
+            this.cancel_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.cancel_button.BackColor = System.Drawing.SystemColors.Window;
             this.cancel_button.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.cancel_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.cancel_button.Location = new System.Drawing.Point(181, 89);
+            this.cancel_button.Location = new System.Drawing.Point(168, 124);
+            this.cancel_button.Margin = new System.Windows.Forms.Padding(1);
             this.cancel_button.Name = "cancel_button";
-            this.cancel_button.Size = new System.Drawing.Size(113, 23);
+            this.cancel_button.Size = new System.Drawing.Size(135, 26);
             this.cancel_button.TabIndex = 5;
             this.cancel_button.Text = "Cancel";
             this.cancel_button.UseVisualStyleBackColor = false;
             this.cancel_button.Click += new System.EventHandler(this.Cancel_buttonClick);
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.AutoSize = true;
+            this.tableLayoutPanel1.ColumnCount = 3;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.cancel_button, 2, 5);
+            this.tableLayoutPanel1.Controls.Add(this.phaseNumber_textBox, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.addPhase_button, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.phaseName_textBox, 0, 3);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 6;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(304, 151);
+            this.tableLayoutPanel1.TabIndex = 6;
+            // 
             // AddPhaseForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(294, 116);
-            this.Controls.Add(this.cancel_button);
-            this.Controls.Add(this.addPhase_button);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.phaseName_textBox);
-            this.Controls.Add(this.phaseNumber_textBox);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MaximumSize = new System.Drawing.Size(310, 155);
-            this.MinimumSize = new System.Drawing.Size(310, 155);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(304, 151);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(320, 190);
             this.Name = "AddPhaseForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Add new phase";
             this.TopMost = true;
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }
 

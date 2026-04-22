@@ -43,16 +43,14 @@ namespace FilteringTool.UI
             // 
             // checkedListBox
             // 
-            this.checkedListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.checkedListBox.CheckOnClick = true;
+            this.checkedListBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkedListBox.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkedListBox.FormattingEnabled = true;
             this.checkedListBox.Location = new System.Drawing.Point(0, 0);
             this.checkedListBox.Margin = new System.Windows.Forms.Padding(0);
             this.checkedListBox.Name = "checkedListBox";
-            this.checkedListBox.Size = new System.Drawing.Size(151, 214);
+            this.checkedListBox.Size = new System.Drawing.Size(136, 221);
             this.checkedListBox.TabIndex = 0;
             this.checkedListBox.MouseMove += new System.Windows.Forms.MouseEventHandler(this.View_checkedListBox_MouseMove);
             this.checkedListBox.MouseUp += new System.Windows.Forms.MouseEventHandler(this.CheckedListBoxMouseUp);
@@ -89,11 +87,10 @@ namespace FilteringTool.UI
             // 
             // SelectCheckedListBoxControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.Controls.Add(this.checkedListBox);
             this.Name = "SelectCheckedListBoxControl";
-            this.Size = new System.Drawing.Size(126, 240);
+            this.Size = new System.Drawing.Size(136, 221);
             this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 

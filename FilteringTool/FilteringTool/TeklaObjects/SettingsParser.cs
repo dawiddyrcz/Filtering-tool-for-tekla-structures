@@ -11,7 +11,7 @@ namespace FilteringTool.TeklaObjects
         public static List<ModelObjectRepotProperty> Parse(string inputText, out string outputText)
         {
             var returnList = new List<ModelObjectRepotProperty>();
-            if (inputText == null)
+            if (inputText is null)
             {
                 outputText = "";
                 return returnList;

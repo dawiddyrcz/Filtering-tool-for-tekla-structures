@@ -113,6 +113,7 @@ namespace FilteringTool
                 {
                     retList.Add(Path.GetFileNameWithoutExtension(filePath));
                 }
+                retList.Sort();
             }
             catch (Exception ex)
             {

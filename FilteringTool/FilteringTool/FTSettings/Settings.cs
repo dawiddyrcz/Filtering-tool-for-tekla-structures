@@ -10,6 +10,7 @@ namespace FilteringTool.FTSettings
         public static FilterType CurrentFilterType { get; set; }
         public static bool AddWeldMinusOneFilter { get; set; }
         public static bool AddComponentFilter { get; set; }
+        public static bool AddRebarFilter { get; set; }
         public static bool ChangeOnlySelectedViews { get; set; }
         public static bool ShowShowObjectInfoInTheBottomOfTeklaWindow { get; set; }
 
@@ -20,10 +21,6 @@ namespace FilteringTool.FTSettings
 
         public static DateTime LastVersionCheck { get; set; }
         public static DateTime LastAdvertCheck { get; set; }
-
-        public static int FileMajorPartFromWebsite { get; set; }
-        public static int FileMinorPartFromWebsite { get; set; }
-        public static string LinkToDownloadFromWebsite { get; set; }
         
         static Settings()
         {
@@ -49,9 +46,7 @@ namespace FilteringTool.FTSettings
             LastVersionCheck = Properties.Settings.Default.LastVersionCheck;
             LastAdvertCheck = Properties.Settings.Default.LastAdvertCheck;
 
-            FileMajorPartFromWebsite = Properties.Settings.Default.FileMajorPartFromWebsite;
-            FileMinorPartFromWebsite = Properties.Settings.Default.FileMinorPartFromWebsite;
-            LinkToDownloadFromWebsite = Properties.Settings.Default.LinkToDownloadFromWebsite;
+            AddRebarFilter = Properties.Settings.Default.AddRebarFilter;
 
             var propFilterType = Properties.Settings.Default.CurrentFilterType;
 
@@ -80,10 +75,7 @@ namespace FilteringTool.FTSettings
             Properties.Settings.Default.ObjectInfoRebar = ObjectInfoRebar;
             Properties.Settings.Default.LastVersionCheck = LastVersionCheck;
             Properties.Settings.Default.LastAdvertCheck = LastAdvertCheck;
-            Properties.Settings.Default.FileMajorPartFromWebsite = FileMajorPartFromWebsite;
-            Properties.Settings.Default.FileMinorPartFromWebsite = FileMinorPartFromWebsite;
-            Properties.Settings.Default.LinkToDownloadFromWebsite = LinkToDownloadFromWebsite;
-
+            Properties.Settings.Default.AddRebarFilter = AddRebarFilter;
             Properties.Settings.Default.Save();
         }
     }

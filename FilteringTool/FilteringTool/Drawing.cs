@@ -11,7 +11,7 @@ namespace FilteringTool
         public static bool IsNotOpened()
         {
             var drawinhHandler = new Tekla.Structures.Drawing.DrawingHandler();
-            return drawinhHandler.GetActiveDrawing() == null;
+            return drawinhHandler.GetActiveDrawing() is null;
         }
     }
 }
